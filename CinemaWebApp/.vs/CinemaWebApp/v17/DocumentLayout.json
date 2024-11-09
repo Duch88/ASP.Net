@@ -1,117 +1,117 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\",
+  "WorkspaceRootPath": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\views\\movie\\addtoprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\views\\movie\\addtoprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\views\\cinema\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\views\\cinema\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\models\\viewmodels\\addmovietocinemaprogramviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\models\\viewmodels\\addmovietocinemaprogramviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\models\\viewmodels\\cinemacheckboxitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\models\\viewmodels\\cinemacheckboxitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\views\\cinema\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\views\\cinema\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\models\\viewmodels\\cinemadetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\models\\viewmodels\\cinemadetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\models\\viewmodels\\cinemacreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\models\\viewmodels\\cinemacreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\models\\viewmodels\\movieviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\models\\viewmodels\\movieviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\models\\viewmodels\\movieprogramviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\models\\viewmodels\\movieprogramviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\models\\viewmodels\\cinemaindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\models\\viewmodels\\cinemaindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\views\\movie\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\views\\movie\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\models\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\models\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\migrations\\20241103100918_addcinemamovierelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\migrations\\20241103100918_addcinemamovierelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\views\\cinema\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\views\\cinema\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\views\\movie\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\views\\movie\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\models\\cinemamovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\models\\cinemamovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\models\\cinemamovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\views\\movie\\addtoprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\views\\movie\\addtoprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\views\\cinema\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\views\\cinema\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\models\\viewmodels\\addmovietocinemaprogramviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\models\\viewmodels\\addmovietocinemaprogramviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\models\\viewmodels\\cinemacheckboxitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\models\\viewmodels\\cinemacheckboxitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\views\\cinema\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\views\\cinema\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\models\\viewmodels\\cinemadetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\models\\viewmodels\\cinemadetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\models\\viewmodels\\cinemacreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\models\\viewmodels\\cinemacreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\models\\viewmodels\\movieviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\models\\viewmodels\\movieviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\models\\viewmodels\\movieprogramviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\models\\viewmodels\\movieprogramviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\models\\viewmodels\\cinemaindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\models\\viewmodels\\cinemaindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\views\\movie\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\views\\movie\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\models\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\models\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\migrations\\20241103100918_addcinemamovierelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\migrations\\20241103100918_addcinemamovierelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\views\\cinema\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\views\\cinema\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\views\\movie\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\views\\movie\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\migrations\\20241101105752_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\migrations\\20241101105752_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\migrations\\20241101105752_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\new project\\cinemawebapp\\cinemawebapp\\migrations\\20241101161645_mig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\cinemawebapp\\cinemawebapp\\migrations\\20241101161645_mig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF88EAF2-B8B6-4334-990A-2964C63D88BF}|CinemaWebApp\\CinemaWebApp.csproj|solutionrelative:cinemawebapp\\migrations\\20241101161645_mig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -130,36 +130,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CinemaCheckBoxItem.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\CinemaCheckBoxItem.cs",
-              "RelativeDocumentMoniker": "CinemaWebApp\\Models\\ViewModels\\CinemaCheckBoxItem.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\CinemaCheckBoxItem.cs",
-              "RelativeToolTip": "CinemaWebApp\\Models\\ViewModels\\CinemaCheckBoxItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T08:59:26.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MovieController.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Controllers\\MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Controllers\\MovieController.cs",
               "RelativeDocumentMoniker": "CinemaWebApp\\Controllers\\MovieController.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Controllers\\MovieController.cs",
               "RelativeToolTip": "CinemaWebApp\\Controllers\\MovieController.cs",
               "ViewState": "AgIAAH0AAAAAAAAAAAAYwHkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T08:55:44.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T08:55:44.796Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Views\\Cinema\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Views\\Cinema\\Details.cshtml",
               "RelativeDocumentMoniker": "CinemaWebApp\\Views\\Cinema\\Details.cshtml",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Views\\Cinema\\Details.cshtml",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Views\\Cinema\\Details.cshtml",
               "RelativeToolTip": "CinemaWebApp\\Views\\Cinema\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -167,11 +154,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CinemaController.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Controllers\\CinemaController.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Controllers\\CinemaController.cs",
               "RelativeDocumentMoniker": "CinemaWebApp\\Controllers\\CinemaController.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Controllers\\CinemaController.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Controllers\\CinemaController.cs",
               "RelativeToolTip": "CinemaWebApp\\Controllers\\CinemaController.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAkwEkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -179,37 +166,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Views\\Cinema\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Views\\Cinema\\Create.cshtml",
               "RelativeDocumentMoniker": "CinemaWebApp\\Views\\Cinema\\Create.cshtml",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Views\\Cinema\\Create.cshtml",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Views\\Cinema\\Create.cshtml",
               "RelativeToolTip": "CinemaWebApp\\Views\\Cinema\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T15:37:11.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T15:37:11.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CinemaWebApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "CinemaWebApp\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T08:38:49.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T08:38:49.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AddToProgram.cshtml",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Views\\Movie\\AddToProgram.cshtml",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Views\\Movie\\AddToProgram.cshtml",
               "RelativeDocumentMoniker": "CinemaWebApp\\Views\\Movie\\AddToProgram.cshtml",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Views\\Movie\\AddToProgram.cshtml",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Views\\Movie\\AddToProgram.cshtml",
               "RelativeToolTip": "CinemaWebApp\\Views\\Movie\\AddToProgram.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -218,11 +203,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Cinema.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\Cinema.cs",
+              "RelativeDocumentMoniker": "CinemaWebApp\\Models\\Cinema.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\Cinema.cs",
+              "RelativeToolTip": "CinemaWebApp\\Models\\Cinema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:40:45.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CinemaMovie.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\CinemaMovie.cs",
+              "RelativeDocumentMoniker": "CinemaWebApp\\Models\\CinemaMovie.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\CinemaMovie.cs",
+              "RelativeToolTip": "CinemaWebApp\\Models\\CinemaMovie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:46:44.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CinemaCheckBoxItem.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\CinemaCheckBoxItem.cs",
+              "RelativeDocumentMoniker": "CinemaWebApp\\Models\\ViewModels\\CinemaCheckBoxItem.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\CinemaCheckBoxItem.cs",
+              "RelativeToolTip": "CinemaWebApp\\Models\\ViewModels\\CinemaCheckBoxItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T08:59:26.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AddMovieToCinemaProgramViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\AddMovieToCinemaProgramViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\AddMovieToCinemaProgramViewModel.cs",
               "RelativeDocumentMoniker": "CinemaWebApp\\Models\\ViewModels\\AddMovieToCinemaProgramViewModel.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\AddMovieToCinemaProgramViewModel.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\AddMovieToCinemaProgramViewModel.cs",
               "RelativeToolTip": "CinemaWebApp\\Models\\ViewModels\\AddMovieToCinemaProgramViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -230,11 +253,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "MovieViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\MovieViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\MovieViewModel.cs",
               "RelativeDocumentMoniker": "CinemaWebApp\\Models\\ViewModels\\MovieViewModel.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\MovieViewModel.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\MovieViewModel.cs",
               "RelativeToolTip": "CinemaWebApp\\Models\\ViewModels\\MovieViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -242,11 +265,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "CinemaCreateViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\CinemaCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\CinemaCreateViewModel.cs",
               "RelativeDocumentMoniker": "CinemaWebApp\\Models\\ViewModels\\CinemaCreateViewModel.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\CinemaCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\CinemaCreateViewModel.cs",
               "RelativeToolTip": "CinemaWebApp\\Models\\ViewModels\\CinemaCreateViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -254,11 +277,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "CinemaDetailsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\CinemaDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\CinemaDetailsViewModel.cs",
               "RelativeDocumentMoniker": "CinemaWebApp\\Models\\ViewModels\\CinemaDetailsViewModel.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\CinemaDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\CinemaDetailsViewModel.cs",
               "RelativeToolTip": "CinemaWebApp\\Models\\ViewModels\\CinemaDetailsViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -266,11 +289,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Views\\Movie\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Views\\Movie\\Index.cshtml",
               "RelativeDocumentMoniker": "CinemaWebApp\\Views\\Movie\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Views\\Movie\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Views\\Movie\\Index.cshtml",
               "RelativeToolTip": "CinemaWebApp\\Views\\Movie\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -278,11 +301,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "CinemaWebApp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Controllers\\HomeController.cs",
               "RelativeToolTip": "CinemaWebApp\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -290,11 +313,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "MovieProgramViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\MovieProgramViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\MovieProgramViewModel.cs",
               "RelativeDocumentMoniker": "CinemaWebApp\\Models\\ViewModels\\MovieProgramViewModel.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\MovieProgramViewModel.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\MovieProgramViewModel.cs",
               "RelativeToolTip": "CinemaWebApp\\Models\\ViewModels\\MovieProgramViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -302,11 +325,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "CinemaIndexViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\CinemaIndexViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\CinemaIndexViewModel.cs",
               "RelativeDocumentMoniker": "CinemaWebApp\\Models\\ViewModels\\CinemaIndexViewModel.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\CinemaIndexViewModel.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\ViewModels\\CinemaIndexViewModel.cs",
               "RelativeToolTip": "CinemaWebApp\\Models\\ViewModels\\CinemaIndexViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -314,11 +337,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Views\\Movie\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Views\\Movie\\Details.cshtml",
               "RelativeDocumentMoniker": "CinemaWebApp\\Views\\Movie\\Details.cshtml",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Views\\Movie\\Details.cshtml",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Views\\Movie\\Details.cshtml",
               "RelativeToolTip": "CinemaWebApp\\Views\\Movie\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -326,23 +349,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Cinema.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\Cinema.cs",
-              "RelativeDocumentMoniker": "CinemaWebApp\\Models\\Cinema.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\Cinema.cs",
-              "RelativeToolTip": "CinemaWebApp\\Models\\Cinema.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T09:40:45.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "CinemaWebApp\\Models\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\Data\\AppDbContext.cs",
               "RelativeToolTip": "CinemaWebApp\\Models\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -350,11 +361,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "20241103100918_AddCinemaMovieRelationship.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Migrations\\20241103100918_AddCinemaMovieRelationship.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Migrations\\20241103100918_AddCinemaMovieRelationship.cs",
               "RelativeDocumentMoniker": "CinemaWebApp\\Migrations\\20241103100918_AddCinemaMovieRelationship.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Migrations\\20241103100918_AddCinemaMovieRelationship.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Migrations\\20241103100918_AddCinemaMovieRelationship.cs",
               "RelativeToolTip": "CinemaWebApp\\Migrations\\20241103100918_AddCinemaMovieRelationship.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -362,11 +373,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Views\\Movie\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Views\\Movie\\Create.cshtml",
               "RelativeDocumentMoniker": "CinemaWebApp\\Views\\Movie\\Create.cshtml",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Views\\Movie\\Create.cshtml",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Views\\Movie\\Create.cshtml",
               "RelativeToolTip": "CinemaWebApp\\Views\\Movie\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -374,11 +385,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Views\\Cinema\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Views\\Cinema\\Index.cshtml",
               "RelativeDocumentMoniker": "CinemaWebApp\\Views\\Cinema\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Views\\Cinema\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Views\\Cinema\\Index.cshtml",
               "RelativeToolTip": "CinemaWebApp\\Views\\Cinema\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -386,11 +397,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CinemaWebApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "CinemaWebApp\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -398,11 +409,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\Movie.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "CinemaWebApp\\Models\\Movie.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Models\\Movie.cs",
               "RelativeToolTip": "CinemaWebApp\\Models\\Movie.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -410,23 +421,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CinemaMovie.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\CinemaMovie.cs",
-              "RelativeDocumentMoniker": "CinemaWebApp\\Models\\CinemaMovie.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Models\\CinemaMovie.cs",
-              "RelativeToolTip": "CinemaWebApp\\Models\\CinemaMovie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T09:46:44.53Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 25,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Program.cs",
               "RelativeDocumentMoniker": "CinemaWebApp\\Program.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Program.cs",
               "RelativeToolTip": "CinemaWebApp\\Program.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAzwA0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -436,9 +435,9 @@
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\appsettings.json",
               "RelativeDocumentMoniker": "CinemaWebApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\appsettings.json",
               "RelativeToolTip": "CinemaWebApp\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -448,9 +447,9 @@
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "20241101161645_Mig.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Migrations\\20241101161645_Mig.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Migrations\\20241101161645_Mig.cs",
               "RelativeDocumentMoniker": "CinemaWebApp\\Migrations\\20241101161645_Mig.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Migrations\\20241101161645_Mig.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Migrations\\20241101161645_Mig.cs",
               "RelativeToolTip": "CinemaWebApp\\Migrations\\20241101161645_Mig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -460,9 +459,9 @@
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "20241101105752_Init.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Migrations\\20241101105752_Init.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Migrations\\20241101105752_Init.cs",
               "RelativeDocumentMoniker": "CinemaWebApp\\Migrations\\20241101105752_Init.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\New Project\\CinemaWebApp\\CinemaWebApp\\Migrations\\20241101105752_Init.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\CinemaWebApp\\CinemaWebApp\\Migrations\\20241101105752_Init.cs",
               "RelativeToolTip": "CinemaWebApp\\Migrations\\20241101105752_Init.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

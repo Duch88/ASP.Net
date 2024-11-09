@@ -2,6 +2,7 @@
 
 namespace CinemaWebApp.Models
 {
+    //comment
     public class Cinema
     {
         public int Id { get; set; }
