@@ -1,0 +1,8 @@
+C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\ChampionsLeagueTeamsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\ChampionsLeagueTeamsApp.AssemblyInfoInputs.cache
+C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\ChampionsLeagueTeamsApp.AssemblyInfo.cs
+C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\ChampionsLeagueTeamsApp.csproj.CoreCompileInputs.cache
+C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\ChampionsLeagueTeamsApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\ChampionsLeagueTeamsApp.RazorAssemblyInfo.cache
+C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\ChampionsLeagueTeamsApp.RazorAssemblyInfo.cs
+C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\ChampionsLeagueTeamsApp.sourcelink.json

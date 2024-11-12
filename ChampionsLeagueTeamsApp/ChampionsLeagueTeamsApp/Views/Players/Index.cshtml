@@ -1,0 +1,34 @@
+﻿@model IEnumerable<ChampionsLeagueTeamsApp.Models.Player>
+
+@{
+    ViewData["Title"] = "Players List";
+}
+
+<h2>Players List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Goals</th>
+            <th>Team</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var player in Model)
+
+        {
+            <tr>
+                <td>@player.Name</td>
+                <td>@player.Position</td>
+                <td>@player.Goals</td>
+                <td>@player.Team.Name</td>
+                <td>
+                    <a class="btn btn-info" asp-controller="Players" asp-action="Details" asp-route-id="@player.Id">View</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

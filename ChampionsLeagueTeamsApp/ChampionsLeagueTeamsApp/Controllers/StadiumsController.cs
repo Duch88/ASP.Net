@@ -5,8 +5,7 @@ namespace ChampionsLeagueTeamsApp.Controllers
 {
     public class StadiumsController : Controller
     {
-        public class StadiumsController : Controller
-        {
+
             private readonly ApplicationDbContext _context;
 
             public StadiumsController(ApplicationDbContext context)
@@ -19,6 +18,5 @@ namespace ChampionsLeagueTeamsApp.Controllers
                 var stadiums = await _context.Stadiums.ToListAsync();
                 return View(stadiums);
             }
-        }
     }
 }

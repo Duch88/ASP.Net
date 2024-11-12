@@ -1,0 +1,15 @@
+﻿@model ChampionsLeagueTeamsApp.Models.Team
+
+@{
+    ViewData["Title"] = "Team Details";
+}
+
+<h2>Team Details</h2>
+
+<div>
+    <p><strong>Name:</strong> @Model.Name</p>
+    <p><strong>Country:</strong> @Model.Country</p>
+    <p><strong>Champions League Titles:</strong> @Model.ChampionsLeagueWins</p>
+</div>
+
+<a class="btn btn-secondary" asp-controller="Teams" asp-action="Index">Back to List</a>
