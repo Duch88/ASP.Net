@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using ChampionsLeagueTeamsApp.Data;
+
 namespace ChampionsLeagueTeamsApp
 {
     public class Program
@@ -5,6 +8,9 @@ namespace ChampionsLeagueTeamsApp
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();

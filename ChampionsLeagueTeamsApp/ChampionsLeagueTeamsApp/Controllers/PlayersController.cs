@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ChampionsLeagueTeamsApp.Models;
+using ChampionsLeagueTeamsApp.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace ChampionsLeagueTeamsApp.Controllers
 {
