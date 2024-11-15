@@ -10,7 +10,7 @@ namespace ChampionsLeagueTeamsApp
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
@@ -29,6 +29,11 @@ namespace ChampionsLeagueTeamsApp
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.MapControllerRoute(
+                name: "admin",
+                pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}");
+
 
             app.UseAuthorization();
 
