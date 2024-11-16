@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MqsmCklST80jAXbvRzRP7Q/GJvrnEz4ZSX4HrpRuQkA=",
+  "Hash": "d1jVzKZH7iDTuJHHuN5PJKnXy+IEdDbWtpERxOvFH84=",
   "Source": "ChampionsLeagueTeamsApp",
   "BasePath": "_content/ChampionsLeagueTeamsApp",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\wwwroot\\img\\Logo.png",
+      "SourceId": "ChampionsLeagueTeamsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\wwwroot\\",
+      "BasePath": "_content/ChampionsLeagueTeamsApp",
+      "RelativePath": "img/Logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logo.png"
     },
     {
       "Identity": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\wwwroot\\js\\site.js",
