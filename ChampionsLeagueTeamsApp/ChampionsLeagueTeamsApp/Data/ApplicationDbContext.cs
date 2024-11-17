@@ -1,13 +1,15 @@
 ﻿using ChampionsLeagueTeamsApp.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 
 namespace ChampionsLeagueTeamsApp.Data
 
 {
-        public class ApplicationDbContext : DbContext
-        {
+        public class ApplicationDbContext : IdentityDbContext<IdentityUser>
+    {
             public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
                 : base(options)
             {

@@ -1,21 +1,56 @@
 using Microsoft.EntityFrameworkCore;
 using ChampionsLeagueTeamsApp.Data;
+using Microsoft.AspNetCore.Identity;
 
 namespace ChampionsLeagueTeamsApp
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+               .AddRoles<IdentityRole>() 
+               .AddEntityFrameworkStores<ApplicationDbContext>();
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
+            builder.Services.AddRazorPages();
+
             var app = builder.Build();
+
+            using (var scope = app.Services.CreateScope())
+            {
+                var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+                var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
+
+             
+                if (!await roleManager.RoleExistsAsync("Administrator"))
+                {
+                    await roleManager.CreateAsync(new IdentityRole("Administrator"));
+                }
+
+                if (!await roleManager.RoleExistsAsync("User"))
+                {
+                    await roleManager.CreateAsync(new IdentityRole("User"));
+                }
+
+                
+                var adminEmail = "admin@example.com";
+                var adminPassword = "Admin@123";
+
+                if (await userManager.FindByEmailAsync(adminEmail) == null)
+                {
+                    var adminUser = new IdentityUser { UserName = adminEmail, Email = adminEmail, EmailConfirmed = true };
+                    await userManager.CreateAsync(adminUser, adminPassword);
+                    await userManager.AddToRoleAsync(adminUser, "Administrator");
+                }
+            }
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -40,6 +75,8 @@ namespace ChampionsLeagueTeamsApp
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
+
+            app.MapRazorPages();
 
             app.Run();
         }
