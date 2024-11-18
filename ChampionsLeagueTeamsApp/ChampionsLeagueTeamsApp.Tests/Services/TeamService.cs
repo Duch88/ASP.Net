@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ChampionsLeagueTeamsApp.Helpers;
 
 namespace ChampionsLeagueTeamsApp.Tests.Services
 {
@@ -20,17 +21,30 @@ namespace ChampionsLeagueTeamsApp.Tests.Services
 
         public void AddTeam(Team team)
         {
-            if (string.IsNullOrEmpty(team.Name))
+            if (team == null)
+            {
+                throw new ArgumentException("Team cannot be null.");
+            }
+
+            if (string.IsNullOrWhiteSpace(team.Name))
             {
                 throw new ArgumentException("Name cannot be null or empty.");
             }
 
-            if (string.IsNullOrEmpty(team.Country))
+            if (string.IsNullOrWhiteSpace(team.Country))
             {
                 throw new ArgumentException("Country cannot be null or empty.");
             }
 
-            _context.Teams.Add(team); 
+            if (team.ChampionsLeagueWins < 0)
+            {
+                throw new ArgumentException("Champions League Wins must be a non-negative number.");
+            }
+
+            team.Name = HtmlHelper.EscapeHtml(team.Name);
+            team.Country = HtmlHelper.EscapeHtml(team.Country);
+
+            _context.Teams.Add(team);
             _context.SaveChanges();
         } 
         public IEnumerable<Team> GetAllTeams()

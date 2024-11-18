@@ -14,7 +14,7 @@ build_property.EnableComHosting =
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
@@ -38,6 +38,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/gtone/OneDrive/Desktop/Get Upload/ASP.Net/ChampionsLeagueTeamsApp/ChampionsLeagueTeamsApp/Views/Coaches/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29hY2hlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gtone/OneDrive/Desktop/Get Upload/ASP.Net/ChampionsLeagueTeamsApp/ChampionsLeagueTeamsApp/Views/Error/InternalServerError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcSW50ZXJuYWxTZXJ2ZXJFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gtone/OneDrive/Desktop/Get Upload/ASP.Net/ChampionsLeagueTeamsApp/ChampionsLeagueTeamsApp/Views/Error/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcTm90Rm91bmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/gtone/OneDrive/Desktop/Get Upload/ASP.Net/ChampionsLeagueTeamsApp/ChampionsLeagueTeamsApp/Views/Home/Index.cshtml]

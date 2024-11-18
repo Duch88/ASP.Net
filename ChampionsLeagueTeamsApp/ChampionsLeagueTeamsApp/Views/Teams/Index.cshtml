@@ -20,9 +20,9 @@
 
         {
             <tr>
-                <td>@team.Name</td>
-                <td>@team.Country</td>
-                <td>@team.ChampionsLeagueWins</td>
+                <td>@Html.Encode(team.Name)</td>
+                <td>@Html.Encode(team.Country)</td>
+                <td>@Html.Encode(team.ChampionsLeagueWins)</td>
                 <td>
                     <a class="btn btn-info" asp-controller="Teams" asp-action="Details" asp-route-id="@team.Id">View</a>
                 </td>

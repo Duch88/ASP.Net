@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using ChampionsLeagueTeamsApp.Data;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ChampionsLeagueTeamsApp
 {
@@ -16,6 +17,13 @@ namespace ChampionsLeagueTeamsApp
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                .AddRoles<IdentityRole>() 
                .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            builder.Services.AddControllersWithViews(options =>
+            {
+                options.SuppressOutputFormatterBuffering = true;
+            }).AddRazorRuntimeCompilation();
+
+            builder.Services.AddDataProtection();
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
@@ -58,6 +66,9 @@ namespace ChampionsLeagueTeamsApp
                 app.UseExceptionHandler("/Home/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
+
+                app.UseExceptionHandler("/Error/500");
+                app.UseStatusCodePagesWithReExecute("/Error/{0}");
             }
 
             app.UseHttpsRedirection();

@@ -21,10 +21,10 @@
 
         {
             <tr>
-                <td>@player.Name</td>
-                <td>@player.Position</td>
-                <td>@player.Goals</td>
-                <td>@player.Team.Name</td>
+                <td>@Html.Encode(player.Name)</td>
+                <td>@Html.Encode(player.Position)</td>
+                <td>@Html.Encode(player.Goals)</td>
+                <td>@Html.Encode(player.Team.Name)</td>
                 <td>
                     <a class="btn btn-info" asp-controller="Players" asp-action="Details" asp-route-id="@player.Id">View</a>
                 </td>

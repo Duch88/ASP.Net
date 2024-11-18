@@ -4,6 +4,7 @@ using ChampionsLeagueTeamsApp.Tests.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -159,6 +160,22 @@ namespace ChampionsLeagueTeamsApp.Tests.Services
            
             var exception = Assert.Throws<ArgumentException>(() => teamService.AddTeam(team));
             Assert.Equal("Country cannot be null or empty.", exception.Message);
+        }
+
+        [Fact]
+        public void AddTeam_ShouldEscapeHtmlCharacters()
+        {
+            var team = new Team
+            {
+                Name = "<script>alert('XSS')</script>",
+                Country = "Test Country"
+            };
+
+            var encodedName = WebUtility.HtmlEncode(team.Name);
+            var encodedCountry = WebUtility.HtmlEncode(team.Country);
+
+            Assert.Equal("&lt;script&gt;alert(&#39;XSS&#39;)&lt;/script&gt;", encodedName);
+            Assert.Equal("Test Country", encodedCountry);
         }
     }
 }

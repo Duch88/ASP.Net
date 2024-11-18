@@ -7,9 +7,9 @@
 <h2>Coach Details</h2>
 
 <div>
-    <p><strong>Name:</strong> @Model.Name</p>
-    <p><strong>Experience:</strong> @Model.Experience years</p>
-    <p><strong>Team:</strong> @Model.Team.Name</p>
+    <p><strong>Name:</strong> @Html.Encode(Model.Name)</p>
+    <p><strong>Experience:</strong> @Html.Encode(Model.Experience.ToString()) years)</p>
+    <p><strong>Team:</strong> @Html.Encode(Model.Team.Name)</p>
 </div>
 
 <a class="btn btn-secondary" asp-controller="Coaches" asp-action="Index">Back to List</a>

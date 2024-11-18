@@ -7,9 +7,9 @@
 <h2>Stadium Details</h2>
 
 <div>
-    <p><strong>Name:</strong> @Model.Name</p>
-    <p><strong>Capacity:</strong> @Model.Capacity</p>
-    <p><strong>Location:</strong> @Model.Location</p>
+    <p><strong>Name:</strong> @Html.Encode(Model.Name)</p>
+    <p><strong>Capacity:</strong> @Html.Encode(Model.ToString())Capacity)</p>
+    <p><strong>Location:</strong> @Html.Encode(Model.Location)</p>
 </div>
 
 <a class="btn btn-secondary" asp-controller="Stadiums" asp-action="Index">Back to List</a>

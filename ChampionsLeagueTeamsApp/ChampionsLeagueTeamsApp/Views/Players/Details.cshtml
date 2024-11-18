@@ -7,10 +7,10 @@
 <h2>Player Details</h2>
 
 <div>
-    <p><strong>Name:</strong> @Model.Name</p>
-    <p><strong>Position:</strong> @Model.Position</p>
-    <p><strong>Goals:</strong> @Model.Goals</p>
-    <p><strong>Team:</strong> @Model.Team.Name</p>
+    <p><strong>Name:</strong> @Html.Encode(Model.Name)</p>
+    <p><strong>Position:</strong> @Html.Encode(Model.Position)</p>
+    <p><strong>Goals:</strong> @Html.Encode(Model.ToString())Goals)</p>
+    <p><strong>Team:</strong> @Html.Encode(Model.Team.Name)</p>
 </div>
 
 <a class="btn btn-secondary" asp-controller="Players" asp-action="Index">Back to List</a>
