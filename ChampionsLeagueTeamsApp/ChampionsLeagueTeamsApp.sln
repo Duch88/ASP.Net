@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChampionsLeagueTeamsApp", "ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp.csproj", "{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChampionsLeagueTeamsApp.Tests", "ChampionsLeagueTeamsApp.Tests\ChampionsLeagueTeamsApp.Tests.csproj", "{D69367DB-47F0-4561-AA7C-240322780B37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D69367DB-47F0-4561-AA7C-240322780B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D69367DB-47F0-4561-AA7C-240322780B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D69367DB-47F0-4561-AA7C-240322780B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D69367DB-47F0-4561-AA7C-240322780B37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
