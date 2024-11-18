@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ChampionsLeagueTeamsApp.5dfib4osnu.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5dfib4osnu"},{"Name":"integrity","Value":"sha256-SRkZAfmUnywBrWlIx/OAFirT79uC6s5mGJ0tFYcHZE0="},{"Name":"label","Value":"_content/ChampionsLeagueTeamsApp/ChampionsLeagueTeamsApp.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1141"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022SRkZAfmUnywBrWlIx/OAFirT79uC6s5mGJ0tFYcHZE0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 18:49:20 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1141"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022SRkZAfmUnywBrWlIx/OAFirT79uC6s5mGJ0tFYcHZE0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 07:57:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ChampionsLeagueTeamsApp/ChampionsLeagueTeamsApp.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ChampionsLeagueTeamsApp.5dfib4osnu.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SRkZAfmUnywBrWlIx/OAFirT79uC6s5mGJ0tFYcHZE0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1141"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022SRkZAfmUnywBrWlIx/OAFirT79uC6s5mGJ0tFYcHZE0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 18:49:20 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1141"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022SRkZAfmUnywBrWlIx/OAFirT79uC6s5mGJ0tFYcHZE0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 07:57:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ChampionsLeagueTeamsApp/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
