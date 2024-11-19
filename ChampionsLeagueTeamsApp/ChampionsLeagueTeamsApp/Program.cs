@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using ChampionsLeagueTeamsApp.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using ChampionsLeagueTeamsApp.BusinessLogic;
 
 namespace ChampionsLeagueTeamsApp
 {
@@ -17,6 +18,8 @@ namespace ChampionsLeagueTeamsApp
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                .AddRoles<IdentityRole>() 
                .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            builder.Services.AddScoped<ITeamService, TeamService>();
 
             builder.Services.AddControllersWithViews(options =>
             {

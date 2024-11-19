@@ -2,22 +2,33 @@
 using ChampionsLeagueTeamsApp.Models;
 using ChampionsLeagueTeamsApp.Data;
 using Microsoft.EntityFrameworkCore;
+using ChampionsLeagueTeamsApp.BusinessLogic;
 
 namespace ChampionsLeagueTeamsApp.Controllers
 {
     public class TeamsController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly ITeamService _teamService;
 
-        public TeamsController(ApplicationDbContext context)
+        public TeamsController(ITeamService teamService)
         {
-            _context = context;
+            _teamService = teamService; 
         }
 
         public async Task<IActionResult> Index()
         {
-            var teams = await _context.Teams.ToListAsync();
+            var teams = await _teamService.GetAllTeamsAsync(); 
             return View(teams);
+        }
+
+        public async Task<IActionResult> Details(int id)
+        {
+            var team = await _teamService.GetTeamByIdAsync(id); 
+            if (team == null)
+            {
+                return NotFound();
+            }
+            return View(team);
         }
     }
 }
