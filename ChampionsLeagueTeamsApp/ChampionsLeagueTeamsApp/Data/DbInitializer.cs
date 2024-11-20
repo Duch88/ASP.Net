@@ -65,14 +65,9 @@ namespace ChampionsLeagueTeamsApp.Data
                 context.Titles.AddRange(new[]
                 {
                     new Title { Year = 1956, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
-                    new Title { Year = 1957, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
-                    new Title { Year = 1958, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
                     new Title { Year = 1963, TeamId = teams.First(t => t.Name == "Milan").Id },
-                    new Title { Year = 1969, TeamId = teams.First(t => t.Name == "Milan").Id },
                     new Title { Year = 1974, TeamId = teams.First(t => t.Name == "Bayern Munich").Id },
-                    new Title { Year = 1975, TeamId = teams.First(t => t.Name == "Bayern Munich").Id },
                     new Title { Year = 1977, TeamId = teams.First(t => t.Name == "Liverpool").Id },
-                    new Title { Year = 1978, TeamId = teams.First(t => t.Name == "Liverpool").Id },
                     new Title { Year = 1992, TeamId = teams.First(t => t.Name == "Barcelona").Id },
                     new Title { Year = 1995, TeamId = teams.First(t => t.Name == "Ajax").Id },
                     new Title { Year = 1964, TeamId = teams.First(t => t.Name == "Inter Milan").Id },
@@ -96,14 +91,14 @@ namespace ChampionsLeagueTeamsApp.Data
             new Coach { Name = "Zinedine Zidane", Experience = 3, Team = teams.FirstOrDefault(t => t.Name == "Real Madrid"),},
             new Coach { Name = "Carlo Ancelotti", Experience = 8, Team = teams.FirstOrDefault(t => t.Name == "Milan"),},
             new Coach { Name = "Hansi Flick", Experience = 3, Team = teams.FirstOrDefault(t => t.Name == "Bayern Munich"),},
-            new Coach { Name = "Jürgen Klopp", Experience = 9, Team = teams.FirstOrDefault(t => t.Name == "Liverpool"),},
+            new Coach { Name = "Jurgen Klopp", Experience = 9, Team = teams.FirstOrDefault(t => t.Name == "Liverpool"),},
             new Coach { Name = "Pep Guardiola", Experience = 4, Team = teams.FirstOrDefault(t => t.Name == "Barcelona"),},
             new Coach { Name = "Erik ten Hag", Experience = 5, Team = teams.FirstOrDefault(t => t.Name == "Ajax"), },
-            new Coach { Name = "José Mourinho", Experience = 2, Team = teams.FirstOrDefault(t => t.Name == "Inter Milan"), },
+            new Coach { Name = "Jose Mourinho", Experience = 2, Team = teams.FirstOrDefault(t => t.Name == "Inter Milan"), },
             new Coach { Name = "Alex Ferguson", Experience = 27, Team = teams.FirstOrDefault(t => t.Name == "Manchester United"), },
             new Coach { Name = "Antonio Conte", Experience = 3, Team = teams.FirstOrDefault(t => t.Name == "Juventus"), },
-            new Coach { Name = "Sven-Göran Eriksson", Experience = 2, Team = teams.FirstOrDefault(t => t.Name == "Benfica"),}
-        });
+            new Coach { Name = "Sven-Goran Eriksson", Experience = 2, Team = teams.FirstOrDefault(t => t.Name == "Benfica"),}
+                 });
 
                 context.SaveChanges();
             }
@@ -118,15 +113,15 @@ namespace ChampionsLeagueTeamsApp.Data
                 context.Players.AddRange(new[]
                 {
             new Player { Name = "Cristiano Ronaldo", Position = "Forward", Goals = 311, Team = teams.FirstOrDefault(t => t.Name == "Real Madrid"),},
-            new Player { Name = "Kaká", Position = "Midfielder", Goals = 77, Team = teams.FirstOrDefault(t => t.Name == "Milan"),},
-            new Player { Name = "Oliver Kahn", Position = "Goalkeeper", Goals = 1, Team = teams.FirstOrDefault(t => t.Name == "Bayern Munich"),},
+            new Player { Name = "Kaka", Position = "Midfielder", Goals = 77, Team = teams.FirstOrDefault(t => t.Name == "Milan"),},
+            new Player { Name = "Oliver Kahn", Position = "Goalkeeper", Goals = 0, Team = teams.FirstOrDefault(t => t.Name == "Bayern Munich"),},
             new Player { Name = "Steven Gerrard", Position = "Midfielder", Goals = 120, Team = teams.FirstOrDefault(t => t.Name == "Liverpool"),},
             new Player { Name = "Lionel Messi", Position = "Forward", Goals = 474, Team = teams.FirstOrDefault(t => t.Name == "Barcelona"),},
             new Player { Name = "Johan Cruyff", Position = "Forward", Goals = 207, Team = teams.FirstOrDefault(t => t.Name == "Ajax"),},
-            new Player { Name = "Ronaldo Nazário", Position = "Striker", Goals = 49, Team = teams.FirstOrDefault(t => t.Name == "Inter Milan"),},
+            new Player { Name = "Ronaldo Nazario", Position = "Striker", Goals = 49, Team = teams.FirstOrDefault(t => t.Name == "Inter Milan"),},
             new Player { Name = "Wayne Rooney", Position = "Forward", Goals = 183, Team = teams.FirstOrDefault(t => t.Name == "Manchester United"),},
             new Player { Name = "Alessandro Del Piero", Position = "Forward", Goals = 208, Team = teams.FirstOrDefault(t => t.Name == "Juventus"),},
-            new Player { Name = "Eusébio", Position = "Striker", Goals = 317, Team = teams.FirstOrDefault(t => t.Name == "Benfica"),}
+            new Player { Name = "Euzebio", Position = "Striker", Goals = 317, Team = teams.FirstOrDefault(t => t.Name == "Benfica"),}
         });
 
                 context.SaveChanges();
@@ -141,16 +136,16 @@ namespace ChampionsLeagueTeamsApp.Data
             {
                 context.Stadiums.AddRange(new[]
                 {
-            new Stadium { Name = "Santiago Bernabéu", Capacity = 78297, Location = "Madrid, Spain", Details = "Opened 14 December 1947", Team = teams.FirstOrDefault(t => t.Name == "Real Madrid") },
-            new Stadium { Name = "San Siro", Capacity = 75817, Location = "Milan, Italy", Details = "Opened 19 September 1926", Team = teams.FirstOrDefault(t => t.Name == "Milan") },
-            new Stadium { Name = "Allianz Arena", Capacity = 75024, Location = "Munich, Germany", Details = "Opened 30 May 2005", Team = teams.FirstOrDefault(t => t.Name == "Bayern Munich") },
-            new Stadium { Name = "Anfield", Capacity = 61276, Location = "Liverpool, England", Details = "Opened 1884", Team = teams.FirstOrDefault(t => t.Name == "Liverpool") },
-            new Stadium { Name = "Camp Nou", Capacity = 105000, Location = "Barcelona, Spain", Details = "Opened 24 September 1957", Team = teams.FirstOrDefault(t => t.Name == "Barcelona") },
-            new Stadium { Name = "Johan Cruyff Arena", Capacity = 55865, Location = "Amsterdam, Netherlands", Details = "Opened 14 August 1996", Team = teams.FirstOrDefault(t => t.Name == "Ajax") },
-            new Stadium { Name = "San Siro", Capacity = 75817, Location = "Milan, Italy", Details = "Opened 19 September 1926", Team = teams.FirstOrDefault(t => t.Name == "Inter Milan") },
-            new Stadium { Name = "Old Trafford", Capacity = 74310, Location = "Manchester, England", Details = "Opened 19 February 1910", Team = teams.FirstOrDefault(t => t.Name == "Manchester United") },
-            new Stadium { Name = "Juventus Stadium", Capacity = 41507, Location = "Turin, Italy", Details = "Opened 8 September 2011", Team = teams.FirstOrDefault(t => t.Name == "Juventus") },
-            new Stadium { Name = "Estádio da Luz", Capacity = 65592, Location = "Lisbon, Portugal", Details = "Opened 25 October 2003", Team = teams.FirstOrDefault(t => t.Name == "Benfica") }
+            new Stadium { Name = "Santiago Bernabeu", Capacity = 78297, Location = "Madrid, Spain", Team = teams.FirstOrDefault(t => t.Name == "Real Madrid") },
+            new Stadium { Name = "San Siro", Capacity = 75817, Location = "Milan, Italy", Team = teams.FirstOrDefault(t => t.Name == "Milan") },
+            new Stadium { Name = "Allianz Arena", Capacity = 75024, Location = "Munich, Germany", Team = teams.FirstOrDefault(t => t.Name == "Bayern Munich") },
+            new Stadium { Name = "Anfield", Capacity = 61276, Location = "Liverpool, England", Team = teams.FirstOrDefault(t => t.Name == "Liverpool") },
+            new Stadium { Name = "Camp Nou", Capacity = 105000, Location = "Barcelona, Spain", Team = teams.FirstOrDefault(t => t.Name == "Barcelona") },
+            new Stadium { Name = "Johan Cruyff Arena", Capacity = 55865, Location = "Amsterdam, Netherlands", Team = teams.FirstOrDefault(t => t.Name == "Ajax") },
+            new Stadium { Name = "San Siro", Capacity = 75817, Location = "Milan, Italy", Team = teams.FirstOrDefault(t => t.Name == "Inter Milan") },
+            new Stadium { Name = "Old Trafford", Capacity = 74310, Location = "Manchester, England", Team = teams.FirstOrDefault(t => t.Name == "Manchester United") },
+            new Stadium { Name = "Juventus Stadium", Capacity = 41507, Location = "Turin, Italy", Team = teams.FirstOrDefault(t => t.Name == "Juventus") },
+            new Stadium { Name = "Estadio de Luz", Capacity = 65592, Location = "Lisbon, Portugal", Team = teams.FirstOrDefault(t => t.Name == "Benfica") }
                  });
 
                 context.SaveChanges();

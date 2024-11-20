@@ -14,7 +14,6 @@ namespace ChampionsLeagueTeamsApp.Models
         public int Capacity { get; set; }
         public string Location { get; set; } = null!;
 
-        public string Details { get; set; } = null!;
         public int TeamId { get; set; }
         public Team Team { get; set; }
     }

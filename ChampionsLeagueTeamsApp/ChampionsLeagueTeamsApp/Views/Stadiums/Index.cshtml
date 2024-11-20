@@ -12,7 +12,6 @@
             <th>Name</th>
             <th>Capacity</th>
             <th>Location</th>
-            <th>Details</th>
         </tr>
     </thead>
     <tbody>
@@ -23,9 +22,6 @@
                 <td>@Html.Encode(stadium.Name)</td>
                 <td>@Html.Encode(stadium.Capacity)</td>
                 <td>@Html.Encode(stadium.Location)</td>
-                <td>
-                    <a class="btn btn-info" asp-controller="Stadiums" asp-action="Details" asp-route-id="@stadium.Id">View</a>
-                </td>
             </tr>
         }
     </tbody>
