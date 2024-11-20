@@ -141,17 +141,17 @@ namespace ChampionsLeagueTeamsApp.Data
             {
                 context.Stadiums.AddRange(new[]
                 {
-            new Stadium { Name = "Santiago Bernabéu", Capacity = 78297, Location = "Madrid, Spain", Team = teams.FirstOrDefault(t => t.Name == "Real Madrid") },
-            new Stadium { Name = "San Siro", Capacity = 75817, Location = "Milan, Italy", Team = teams.FirstOrDefault(t => t.Name == "Milan") },
-            new Stadium { Name = "Allianz Arena", Capacity = 75024, Location = "Munich, Germany", Team = teams.FirstOrDefault(t => t.Name == "Bayern Munich") },
-            new Stadium { Name = "Anfield", Capacity = 61276, Location = "Liverpool, England", Team = teams.FirstOrDefault(t => t.Name == "Liverpool") },
-            new Stadium { Name = "Camp Nou", Capacity = 105000, Location = "Barcelona, Spain", Team = teams.FirstOrDefault(t => t.Name == "Barcelona") },
-            new Stadium { Name = "Johan Cruyff Arena", Capacity = 55865, Location = "Amsterdam, Netherlands", Team = teams.FirstOrDefault(t => t.Name == "Ajax") },
-            new Stadium { Name = "San Siro", Capacity = 75817, Location = "Milan, Italy", Team = teams.FirstOrDefault(t => t.Name == "Inter Milan") },
-            new Stadium { Name = "Old Trafford", Capacity = 74310, Location = "Manchester, England", Team = teams.FirstOrDefault(t => t.Name == "Manchester United") },
-            new Stadium { Name = "Juventus Stadium", Capacity = 41507, Location = "Turin, Italy", Team = teams.FirstOrDefault(t => t.Name == "Juventus") },
-            new Stadium { Name = "Estádio da Luz", Capacity = 65592, Location = "Lisbon, Portugal", Team = teams.FirstOrDefault(t => t.Name == "Benfica") }
-        });
+            new Stadium { Name = "Santiago Bernabéu", Capacity = 78297, Location = "Madrid, Spain", Details = "Opened 14 December 1947", Team = teams.FirstOrDefault(t => t.Name == "Real Madrid") },
+            new Stadium { Name = "San Siro", Capacity = 75817, Location = "Milan, Italy", Details = "Opened 19 September 1926", Team = teams.FirstOrDefault(t => t.Name == "Milan") },
+            new Stadium { Name = "Allianz Arena", Capacity = 75024, Location = "Munich, Germany", Details = "Opened 30 May 2005", Team = teams.FirstOrDefault(t => t.Name == "Bayern Munich") },
+            new Stadium { Name = "Anfield", Capacity = 61276, Location = "Liverpool, England", Details = "Opened 1884", Team = teams.FirstOrDefault(t => t.Name == "Liverpool") },
+            new Stadium { Name = "Camp Nou", Capacity = 105000, Location = "Barcelona, Spain", Details = "Opened 24 September 1957", Team = teams.FirstOrDefault(t => t.Name == "Barcelona") },
+            new Stadium { Name = "Johan Cruyff Arena", Capacity = 55865, Location = "Amsterdam, Netherlands", Details = "Opened 14 August 1996", Team = teams.FirstOrDefault(t => t.Name == "Ajax") },
+            new Stadium { Name = "San Siro", Capacity = 75817, Location = "Milan, Italy", Details = "Opened 19 September 1926", Team = teams.FirstOrDefault(t => t.Name == "Inter Milan") },
+            new Stadium { Name = "Old Trafford", Capacity = 74310, Location = "Manchester, England", Details = "Opened 19 February 1910", Team = teams.FirstOrDefault(t => t.Name == "Manchester United") },
+            new Stadium { Name = "Juventus Stadium", Capacity = 41507, Location = "Turin, Italy", Details = "Opened 8 September 2011", Team = teams.FirstOrDefault(t => t.Name == "Juventus") },
+            new Stadium { Name = "Estádio da Luz", Capacity = 65592, Location = "Lisbon, Portugal", Details = "Opened 25 October 2003", Team = teams.FirstOrDefault(t => t.Name == "Benfica") }
+                 });
 
                 context.SaveChanges();
             }

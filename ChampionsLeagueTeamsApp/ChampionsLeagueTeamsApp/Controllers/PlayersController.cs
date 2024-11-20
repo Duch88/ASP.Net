@@ -17,10 +17,10 @@ namespace ChampionsLeagueTeamsApp.Controllers
 
             public async Task<IActionResult> Index()
             {
-                var players = await _context.Players
-                               .Include(p => p.Team)
-                               .ToListAsync();
-                return View(players);
+                var stadiums = await _context.Stadiums
+                                         .Include(s => s.Team)
+                                         .ToListAsync();
+                return View(stadiums);
             }
     }
 }
