@@ -141,7 +141,6 @@ C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\Champ
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Antiforgery.dll
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.BearerToken.dll
@@ -447,3 +446,4 @@ C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\Champ
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

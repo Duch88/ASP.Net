@@ -44,7 +44,7 @@ namespace ChampionsLeagueTeamsApp.Migrations
 
                     b.HasIndex("TeamId");
 
-                    b.ToTable("Coaches");
+                    b.ToTable("Coaches", (string)null);
                 });
 
             modelBuilder.Entity("ChampionsLeagueTeamsApp.Models.Player", b =>
@@ -73,7 +73,7 @@ namespace ChampionsLeagueTeamsApp.Migrations
 
                     b.HasIndex("TeamId");
 
-                    b.ToTable("Players");
+                    b.ToTable("Players", (string)null);
                 });
 
             modelBuilder.Entity("ChampionsLeagueTeamsApp.Models.Stadium", b =>
@@ -102,7 +102,7 @@ namespace ChampionsLeagueTeamsApp.Migrations
 
                     b.HasIndex("TeamId");
 
-                    b.ToTable("Stadiums");
+                    b.ToTable("Stadiums", (string)null);
                 });
 
             modelBuilder.Entity("ChampionsLeagueTeamsApp.Models.Team", b =>
@@ -126,7 +126,7 @@ namespace ChampionsLeagueTeamsApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Teams");
+                    b.ToTable("Teams", (string)null);
                 });
 
             modelBuilder.Entity("ChampionsLeagueTeamsApp.Models.Title", b =>
@@ -147,7 +147,7 @@ namespace ChampionsLeagueTeamsApp.Migrations
 
                     b.HasIndex("TeamId");
 
-                    b.ToTable("Titles");
+                    b.ToTable("Titles", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

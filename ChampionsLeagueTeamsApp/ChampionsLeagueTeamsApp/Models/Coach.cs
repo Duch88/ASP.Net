@@ -12,6 +12,7 @@ namespace ChampionsLeagueTeamsApp.Models
 
         [Range(0, 50, ErrorMessage = "Experience must be between 0 and 50 years.")]
         public int Experience { get; set; }
+
         public int TeamId { get; set; }
         public Team Team { get; set; }
     }

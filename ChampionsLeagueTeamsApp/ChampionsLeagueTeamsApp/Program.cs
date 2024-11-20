@@ -37,6 +37,12 @@ namespace ChampionsLeagueTeamsApp
 
             using (var scope = app.Services.CreateScope())
             {
+                var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+                DbInitializer.Initialize(context);
+            }
+
+            using (var scope = app.Services.CreateScope())
+            {
                 var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
                 var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
 

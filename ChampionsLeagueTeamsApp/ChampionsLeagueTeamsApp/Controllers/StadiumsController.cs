@@ -17,7 +17,9 @@ namespace ChampionsLeagueTeamsApp.Controllers
 
             public async Task<IActionResult> Index()
             {
-                var stadiums = await _context.Stadiums.ToListAsync();
+                var stadiums = await _context.Stadiums
+                                     .Include(s => s.Team)
+                                     .ToListAsync();
                 return View(stadiums);
             }
     }
