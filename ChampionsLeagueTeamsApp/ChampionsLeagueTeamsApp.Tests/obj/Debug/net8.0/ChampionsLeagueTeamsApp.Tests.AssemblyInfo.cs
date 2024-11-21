@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChampionsLeagueTeamsApp.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51ced1c087aba5fae6d88387bf7fe32676f7d57f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ba067756c8adc8db0d62a6c72a2634695663569")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChampionsLeagueTeamsApp.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChampionsLeagueTeamsApp.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -62,34 +62,70 @@ namespace ChampionsLeagueTeamsApp.Data
             {
                 var teams = context.Teams.ToList();
 
-                context.Titles.AddRange(new[]
-                {
-                    new Title { Year = 1956, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
-                    new Title { Year = 1957, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
-                    new Title { Year = 1958, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
-                    new Title { Year = 1959, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
-                    new Title { Year = 1960, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
-                    new Title { Year = 1966, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
-                    new Title { Year = 1998, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
-                    new Title { Year = 2000, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
-                    new Title { Year = 2002, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
-                    new Title { Year = 2014, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
-                    new Title { Year = 2016, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
-                    new Title { Year = 2017, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
-                    new Title { Year = 2018, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
-                    new Title { Year = 2022, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
-                    new Title { Year = 2024, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
-                    new Title { Year = 1990, TeamId = teams.First(t => t.Name == "Milan").Id },
-                    new Title { Year = 1974, TeamId = teams.First(t => t.Name == "Bayern Munich").Id },
-                    new Title { Year = 1977, TeamId = teams.First(t => t.Name == "Liverpool").Id },
-                    new Title { Year = 1992, TeamId = teams.First(t => t.Name == "Barcelona").Id },
-                    new Title { Year = 1995, TeamId = teams.First(t => t.Name == "Ajax").Id },
-                    new Title { Year = 1964, TeamId = teams.First(t => t.Name == "Inter Milan").Id },
-                    new Title { Year = 1968, TeamId = teams.First(t => t.Name == "Manchester United").Id },
-                    new Title { Year = 1985, TeamId = teams.First(t => t.Name == "Juventus").Id },
-                    new Title { Year = 1961, TeamId = teams.First(t => t.Name == "Benfica").Id },
-                });
+                var titles = new List<Title>
+        {
 
+            new Title { Year = 1956, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
+            new Title { Year = 1957, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
+            new Title { Year = 1958, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
+            new Title { Year = 1959, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
+            new Title { Year = 1960, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
+            new Title { Year = 1966, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
+            new Title { Year = 1998, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
+            new Title { Year = 2000, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
+            new Title { Year = 2002, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
+            new Title { Year = 2014, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
+            new Title { Year = 2016, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
+            new Title { Year = 2017, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
+            new Title { Year = 2018, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
+            new Title { Year = 2022, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
+            new Title { Year = 2024, TeamId = teams.First(t => t.Name == "Real Madrid").Id },
+
+            new Title { Year = 1963, TeamId = teams.First(t => t.Name == "Milan").Id },
+            new Title { Year = 1969, TeamId = teams.First(t => t.Name == "Milan").Id },
+            new Title { Year = 1989, TeamId = teams.First(t => t.Name == "Milan").Id },
+            new Title { Year = 1990, TeamId = teams.First(t => t.Name == "Milan").Id },
+            new Title { Year = 1994, TeamId = teams.First(t => t.Name == "Milan").Id },
+            new Title { Year = 2003, TeamId = teams.First(t => t.Name == "Milan").Id },
+            new Title { Year = 2007, TeamId = teams.First(t => t.Name == "Milan").Id },
+
+            new Title { Year = 1974, TeamId = teams.First(t => t.Name == "Bayern Munich").Id },
+            new Title { Year = 1975, TeamId = teams.First(t => t.Name == "Bayern Munich").Id },
+            new Title { Year = 1976, TeamId = teams.First(t => t.Name == "Bayern Munich").Id },
+            new Title { Year = 2001, TeamId = teams.First(t => t.Name == "Bayern Munich").Id },
+            new Title { Year = 2013, TeamId = teams.First(t => t.Name == "Bayern Munich").Id },
+            new Title { Year = 2020, TeamId = teams.First(t => t.Name == "Bayern Munich").Id },
+
+            new Title { Year = 1977, TeamId = teams.First(t => t.Name == "Liverpool").Id },
+            new Title { Year = 1978, TeamId = teams.First(t => t.Name == "Liverpool").Id },
+            new Title { Year = 1981, TeamId = teams.First(t => t.Name == "Liverpool").Id },
+            new Title { Year = 1984, TeamId = teams.First(t => t.Name == "Liverpool").Id },
+            new Title { Year = 2005, TeamId = teams.First(t => t.Name == "Liverpool").Id },
+            new Title { Year = 2019, TeamId = teams.First(t => t.Name == "Liverpool").Id },
+
+            new Title { Year = 1992, TeamId = teams.First(t => t.Name == "Barcelona").Id },
+            new Title { Year = 2006, TeamId = teams.First(t => t.Name == "Barcelona").Id },
+            new Title { Year = 2009, TeamId = teams.First(t => t.Name == "Barcelona").Id },
+            new Title { Year = 2011, TeamId = teams.First(t => t.Name == "Barcelona").Id },
+            new Title { Year = 2015, TeamId = teams.First(t => t.Name == "Barcelona").Id },
+
+            new Title { Year = 1971, TeamId = teams.First(t => t.Name == "Ajax").Id },
+            new Title { Year = 1972, TeamId = teams.First(t => t.Name == "Ajax").Id },
+            new Title { Year = 1973, TeamId = teams.First(t => t.Name == "Ajax").Id },
+            new Title { Year = 1995, TeamId = teams.First(t => t.Name == "Ajax").Id },
+
+            new Title { Year = 1964, TeamId = teams.First(t => t.Name == "Inter Milan").Id },
+            new Title { Year = 1965, TeamId = teams.First(t => t.Name == "Inter Milan").Id },
+            new Title { Year = 2010, TeamId = teams.First(t => t.Name == "Inter Milan").Id },
+
+            new Title { Year = 1985, TeamId = teams.First(t => t.Name == "Juventus").Id },
+            new Title { Year = 1996, TeamId = teams.First(t => t.Name == "Juventus").Id },
+
+            new Title { Year = 1961, TeamId = teams.First(t => t.Name == "Benfica").Id },
+            new Title { Year = 1962, TeamId = teams.First(t => t.Name == "Benfica").Id },
+        };
+
+                context.Titles.AddRange(titles);
                 context.SaveChanges();
             }
         }
