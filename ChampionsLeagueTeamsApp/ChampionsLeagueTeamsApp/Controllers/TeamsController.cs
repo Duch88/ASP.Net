@@ -12,23 +12,32 @@ namespace ChampionsLeagueTeamsApp.Controllers
 
         public TeamsController(ITeamService teamService)
         {
-            _teamService = teamService; 
+            _teamService = teamService;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int pageNumber = 1, int pageSize = 5, string? searchQuery = null)
         {
-            var teams = await _teamService.GetAllTeamsAsync(); 
-            return View(teams);
-        }
+            
+            IEnumerable<Team> teams;
 
-        public async Task<IActionResult> Details(int id)
-        {
-            var team = await _teamService.GetTeamByIdAsync(id); 
-            if (team == null)
+            if (!string.IsNullOrEmpty(searchQuery))
             {
-                return NotFound();
+                teams = await _teamService.SearchTeamsAsync(searchQuery);
+                ViewData["SearchQuery"] = searchQuery;
             }
-            return View(team);
+            else
+            {
+                
+                teams = await _teamService.GetTeamsWithPaginationAsync(pageNumber, pageSize);
+
+              
+                int totalTeams = await _teamService.GetTotalTeamsCountAsync();
+                ViewData["PageNumber"] = pageNumber;
+                ViewData["PageSize"] = pageSize;
+                ViewData["TotalPages"] = (int)Math.Ceiling((double)totalTeams / pageSize);
+            }
+
+            return View(teams);
         }
     }
 }

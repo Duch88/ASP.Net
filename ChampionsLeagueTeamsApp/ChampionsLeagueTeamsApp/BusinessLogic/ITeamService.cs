@@ -6,10 +6,9 @@ namespace ChampionsLeagueTeamsApp.BusinessLogic
 {
     public interface ITeamService
     {
-        Task<IEnumerable<Team>> GetAllTeamsAsync();  
-        Task<Team> GetTeamByIdAsync(int id);           
-        Task AddTeamAsync(Team team);                  
-        Task UpdateTeamAsync(Team team);               
-        Task DeleteTeamAsync(int id);
+        Task<IEnumerable<Team>> GetAllTeamsAsync();
+        Task<IEnumerable<Team>> SearchTeamsAsync(string searchQuery);
+        Task<IEnumerable<Team>> GetTeamsWithPaginationAsync(int pageNumber, int pageSize);
+        Task<int> GetTotalTeamsCountAsync();
     }
 }

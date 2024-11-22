@@ -20,6 +20,8 @@ namespace ChampionsLeagueTeamsApp
                .AddRoles<IdentityRole>() 
                .AddEntityFrameworkStores<ApplicationDbContext>();
 
+            builder.Services.AddScoped<ITitlesService, TitlesService>();
+
             builder.Services.AddScoped<ITeamService, TeamService>();
 
             builder.Services.AddControllersWithViews(options =>

@@ -6,6 +6,13 @@
 
 <h2>Titles List</h2>
 
+
+<form method="get" asp-controller="Titles" asp-action="Index">
+    <input type="text" name="searchQuery" value="@ViewData["CurrentFilter"]" placeholder="Search Titles..." />
+    <button type="submit">Search</button>
+</form>
+
+
 <table class="table">
     <thead>
         <tr>
@@ -15,7 +22,6 @@
     </thead>
     <tbody>
         @foreach (var title in Model)
-
         {
             <tr>
                 <td>@title.Team.Name</td>
@@ -24,3 +30,22 @@
         }
     </tbody>
 </table>
+
+
+<div>
+    @if (ViewData["PageNumber"] != null && ViewData["TotalPages"] != null)
+    {
+        int pageNumber = (int)ViewData["PageNumber"];
+        int totalPages = (int)ViewData["TotalPages"];
+
+        @if (pageNumber > 1)
+        {
+            <a asp-controller="Titles" asp-action="Index" asp-route-pageNumber="@(pageNumber - 1)" asp-route-searchQuery="@ViewData["CurrentFilter"]">Previous</a>
+        }
+
+        @if (pageNumber < totalPages)
+        {
+            <a asp-controller="Titles" asp-action="Index" asp-route-pageNumber="@(pageNumber + 1)" asp-route-searchQuery="@ViewData["CurrentFilter"]">Next</a>
+        }
+    }
+</div>

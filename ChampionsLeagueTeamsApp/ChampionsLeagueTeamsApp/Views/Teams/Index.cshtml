@@ -6,7 +6,17 @@
 
 <h2>Teams List</h2>
 
-<table class="table">
+
+<form method="get" asp-controller="Teams" asp-action="Index" class="form-inline mb-3">
+    <div class="input-group">
+        <input type="text" name="searchQuery" class="form-control" placeholder="Search teams..."
+               value="@ViewData["SearchQuery"]" />
+        <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+</form>
+
+
+<table class="table table-striped">
     <thead>
         <tr>
             <th>Name</th>
@@ -15,14 +25,51 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var team in Model)
-
+        @if (Model.Any())
+        {
+            @foreach (var team in Model)
+            {
+                <tr>
+                    <td>@Html.Encode(team.Name)</td>
+                    <td>@Html.Encode(team.Country)</td>
+                    <td>@Html.Encode(team.ChampionsLeagueWins)</td>
+                </tr>
+            }
+        }
+        else
         {
             <tr>
-                <td>@Html.Encode(team.Name)</td>
-                <td>@Html.Encode(team.Country)</td>
-                <td>@Html.Encode(team.ChampionsLeagueWins)</td>
+                <td colspan="3" class="text-center">No teams found.</td>
             </tr>
         }
     </tbody>
 </table>
+
+
+@if (ViewData["TotalPages"] != null && (int)ViewData["TotalPages"] > 1)
+{
+    int currentPage = (int)ViewData["PageNumber"];
+    int totalPages = (int)ViewData["TotalPages"];
+
+    <nav>
+        <ul class="pagination">
+
+            <li class="page-item @(currentPage == 1 ? "disabled" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { pageNumber = currentPage - 1, pageSize = ViewData["PageSize"], searchQuery = ViewData["SearchQuery"] })">Previous</a>
+            </li>
+
+
+            @for (int i = 1; i <= totalPages; i++)
+            {
+                <li class="page-item @(i == currentPage ? "active" : "")">
+                    <a class="page-link" href="@Url.Action("Index", new { pageNumber = i, pageSize = ViewData["PageSize"], searchQuery = ViewData["SearchQuery"] })">@i</a>
+                </li>
+            }
+
+
+            <li class="page-item @(currentPage == totalPages ? "disabled" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { pageNumber = currentPage + 1, pageSize = ViewData["PageSize"], searchQuery = ViewData["SearchQuery"] })">Next</a>
+            </li>
+        </ul>
+    </nav>
+}
