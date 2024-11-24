@@ -6,6 +6,12 @@
 
 <h2>Stadiums List</h2>
 
+
+<form method="get" class="form-inline">
+    <input type="text" name="searchQuery" value="@ViewData["CurrentFilter"]" placeholder="Search..." class="form-control" />
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
 <table class="table">
     <thead>
         <tr>
@@ -16,7 +22,6 @@
     </thead>
     <tbody>
         @foreach (var stadium in Model)
-
         {
             <tr>
                 <td>@Html.Encode(stadium.Name)</td>
@@ -26,3 +31,18 @@
         }
     </tbody>
 </table>
+
+
+<div>
+    <ul class="pagination">
+        @if (ViewData["PageNumber"] is int currentPage && ViewData["TotalPages"] is int totalPages)
+        {
+            for (int i = 1; i <= totalPages; i++)
+            {
+                <li class="page-item @(i == currentPage ? "active" : "")">
+                    <a class="page-link" href="@Url.Action("Index", new { pageNumber = i, pageSize = 5, searchQuery = ViewData["CurrentFilter"] })">@i</a>
+                </li>
+            }
+        }
+    </ul>
+</div>

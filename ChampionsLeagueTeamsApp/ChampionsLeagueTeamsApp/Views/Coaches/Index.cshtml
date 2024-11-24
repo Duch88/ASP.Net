@@ -6,23 +6,71 @@
 
 <h2>Coaches List</h2>
 
-<table class="table">
+
+<form method="get" asp-action="Index">
+    <div class="form-group">
+        <input type="text" name="searchQuery" value="@ViewData["CurrentFilter"]" class="form-control" placeholder="Search by coach or team..." />
+        <button type="submit" class="btn btn-primary mt-2">Search</button>
+    </div>
+</form>
+
+
+<table class="table table-bordered">
     <thead>
         <tr>
             <th>Name</th>
-            <th>Experience (years)</th>
+            <th>Experience (Years)</th>
             <th>Team</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var coach in Model)
-
+        @if (!Model.Any())
         {
             <tr>
-                <td>@Html.Encode(coach.Name)</td>
-                <td>@Html.Encode(coach.Experience)</td>
-                <td>@Html.Encode(coach.Team.Name)</td>
+                <td colspan="3" class="text-center">No coaches found.</td>
             </tr>
+        }
+        else
+        {
+            @foreach (var coach in Model)
+            {
+                <tr>
+                    <td>@Html.Encode(coach.Name)</td>
+                    <td>@Html.Encode(coach.Experience)</td>
+                    <td>@Html.Encode(coach.Team.Name)</td>
+                </tr>
+            }
         }
     </tbody>
 </table>
+
+
+<div>
+    @if (ViewData["PageNumber"] != null && ViewData["TotalPages"] != null)
+    {
+        int pageNumber = (int)ViewData["PageNumber"];
+        int totalPages = (int)ViewData["TotalPages"];
+
+        <nav>
+            <ul class="pagination justify-content-center">
+                @if (pageNumber > 1)
+                {
+                    <li class="page-item">
+                        <a class="page-link" asp-action="Index" asp-route-pageNumber="@(pageNumber - 1)" asp-route-searchQuery="@ViewData["CurrentFilter"]">Previous</a>
+                    </li>
+                }
+
+                <li class="page-item disabled">
+                    <span class="page-link">Page @pageNumber of @totalPages</span>
+                </li>
+
+                @if (pageNumber < totalPages)
+                {
+                    <li class="page-item">
+                        <a class="page-link" asp-action="Index" asp-route-pageNumber="@(pageNumber + 1)" asp-route-searchQuery="@ViewData["CurrentFilter"]">Next</a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    }
+</div>

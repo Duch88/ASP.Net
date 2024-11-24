@@ -7,20 +7,43 @@ namespace ChampionsLeagueTeamsApp.Controllers
 {
     public class PlayersController : Controller
     {
+        private readonly ApplicationDbContext _context;
 
-            private readonly ApplicationDbContext _context;
+        public PlayersController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
 
-            public PlayersController(ApplicationDbContext context)
+
+        public async Task<IActionResult> Index(string? searchQuery = null, int pageNumber = 1, int pageSize = 5)
+        {
+
+            IQueryable<Player> playersQuery = _context.Players.Include(p => p.Team);
+
+
+            if (!string.IsNullOrEmpty(searchQuery))
             {
-                _context = context;
+                playersQuery = playersQuery.Where(p => p.Name.Contains(searchQuery) || p.Team.Name.Contains(searchQuery));
+                ViewData["CurrentFilter"] = searchQuery;
             }
 
-            public async Task<IActionResult> Index()
-            {
-                var stadiums = await _context.Players
-                                         .Include(s => s.Team)
-                                         .ToListAsync();
-                return View(stadiums);
-            }
+
+            var totalPlayersCount = await playersQuery.CountAsync();
+
+
+            var players = await playersQuery
+                .Skip((pageNumber - 1) * pageSize)  
+                .Take(pageSize)                     
+                .ToListAsync();
+
+
+            var totalPages = (int)Math.Ceiling((double)totalPlayersCount / pageSize);
+
+
+            ViewData["PageNumber"] = pageNumber;
+            ViewData["TotalPages"] = totalPages;
+
+            return View(players);
+        }
     }
 }

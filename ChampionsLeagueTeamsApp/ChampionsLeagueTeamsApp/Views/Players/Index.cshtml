@@ -6,6 +6,15 @@
 
 <h2>Players List</h2>
 
+
+<form method="get" asp-action="Index" class="form-inline mb-4">
+    <div class="form-group">
+        <input type="text" name="searchQuery" value="@ViewData["CurrentFilter"]" class="form-control" placeholder="Search players or teams" />
+    </div>
+    <button type="submit" class="btn btn-primary ml-2">Search</button>
+</form>
+
+
 <table class="table">
     <thead>
         <tr>
@@ -17,7 +26,6 @@
     </thead>
     <tbody>
         @foreach (var player in Model)
-
         {
             <tr>
                 <td>@Html.Encode(player.Name)</td>
@@ -28,3 +36,41 @@
         }
     </tbody>
 </table>
+
+
+<div class="pagination">
+    @if (ViewData["PageNumber"] != null && ViewData["TotalPages"] != null)
+    {
+        var currentPage = (int)ViewData["PageNumber"];
+        var totalPages = (int)ViewData["TotalPages"];
+
+        <ul class="pagination">
+            @if (currentPage > 1)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-action="Index" asp-route-pageNumber="1">First</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" asp-action="Index" asp-route-pageNumber="@(currentPage - 1)">Previous</a>
+                </li>
+            }
+
+            @for (var i = 1; i <= totalPages; i++)
+            {
+                <li class="page-item @(i == currentPage ? "active" : "")">
+                    <a class="page-link" asp-action="Index" asp-route-pageNumber="@i">@i</a>
+                </li>
+            }
+
+            @if (currentPage < totalPages)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-action="Index" asp-route-pageNumber="@(currentPage + 1)">Next</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" asp-action="Index" asp-route-pageNumber="@totalPages">Last</a>
+                </li>
+            }
+        </ul>
+    }
+</div>

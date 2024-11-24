@@ -24,6 +24,12 @@ namespace ChampionsLeagueTeamsApp
 
             builder.Services.AddScoped<ITeamService, TeamService>();
 
+            builder.Services.AddScoped<ICoachService, CoachService>();
+
+            builder.Services.AddScoped<IPlayerService, PlayerService>();
+
+            builder.Services.AddScoped<IStadiumService, StadiumService>();
+
             builder.Services.AddControllersWithViews(options =>
             {
                 options.SuppressOutputFormatterBuffering = true;
