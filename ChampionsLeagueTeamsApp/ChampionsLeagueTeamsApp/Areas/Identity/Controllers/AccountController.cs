@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ChampionsLeagueTeamsApp.Models;
 using System.Threading.Tasks;
+using ChampionsLeagueTeamsApp.ViewModels;
 
 namespace ChampionsLeagueTeamsApp.Areas.Identity.Controllers
 {
@@ -23,49 +24,81 @@ namespace ChampionsLeagueTeamsApp.Areas.Identity.Controllers
         [HttpGet]
         public IActionResult Login()
         {
+            if (User.Identity.IsAuthenticated)
+            {
+                return RedirectToAction("Index", "Home");
+            }
             return View();
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Login(string username, string password, bool rememberMe)
+        public async Task<IActionResult> Login(LoginViewModel model)
         {
-            var user = await _userManager.FindByNameAsync(username);
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            var user = await _userManager.FindByNameAsync(model.Username);
             if (user != null)
             {
-                var result = await _signInManager.PasswordSignInAsync(user, password, rememberMe, false);
+                var result = await _signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, lockoutOnFailure: true);
                 if (result.Succeeded)
                 {
                     return RedirectToAction("Index", "Home");
                 }
             }
+
             ModelState.AddModelError(string.Empty, "Invalid login attempt.");
-            return View();
+            return View(model);
         }
 
         [HttpGet]
         public IActionResult Register()
         {
+            if (User.Identity.IsAuthenticated)
+            {
+                return RedirectToAction("Index", "Home");
+            }
             return View();
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Register(string username, string email, string password)
+        public async Task<IActionResult> Register(RegisterViewModel model)
         {
-            var user = new IdentityUser { UserName = username, Email = email };
-            var result = await _userManager.CreateAsync(user, password);
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            if (await _userManager.FindByNameAsync(model.Username) != null)
+            {
+                ModelState.AddModelError(string.Empty, "Username is already taken.");
+                return View(model);
+            }
+
+            if (await _userManager.FindByEmailAsync(model.Email) != null)
+            {
+                ModelState.AddModelError(string.Empty, "Email is already in use.");
+                return View(model);
+            }
+
+            var user = new IdentityUser { UserName = model.Username, Email = model.Email };
+            var result = await _userManager.CreateAsync(user, model.Password);
 
             if (result.Succeeded)
             {
                 _logger.LogInformation("User created a new account with password.");
                 return RedirectToAction("Login", "Account");
             }
+
             foreach (var error in result.Errors)
             {
                 ModelState.AddModelError(string.Empty, error.Description);
             }
-            return View();
+            return View(model);
         }
     }
 }
