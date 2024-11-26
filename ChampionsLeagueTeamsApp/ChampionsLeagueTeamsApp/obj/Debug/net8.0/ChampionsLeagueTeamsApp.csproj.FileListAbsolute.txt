@@ -440,7 +440,6 @@ C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\Champ
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ChampionsLeagueTeamsApp.props
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ChampionsLeagueTeamsApp.props
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\Champion.6371FCE3.Up2Date
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\ChampionsLeagueTeamsApp.dll
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\refint\ChampionsLeagueTeamsApp.dll
@@ -449,3 +448,4 @@ C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\Champ
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\ref\ChampionsLeagueTeamsApp.dll
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

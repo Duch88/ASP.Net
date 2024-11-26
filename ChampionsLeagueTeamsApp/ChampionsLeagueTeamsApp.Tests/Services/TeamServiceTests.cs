@@ -177,6 +177,131 @@ namespace ChampionsLeagueTeamsApp.Tests.Services
             Assert.Equal("&lt;script&gt;alert(&#39;XSS&#39;)&lt;/script&gt;", encodedName);
             Assert.Equal("Test Country", encodedCountry);
         }
+
+        [Fact]
+        public void AddTeam_ShouldAddValidTeamToDatabase()
+        {
+            var context = TestDbContext.GetInMemoryDbContext();
+            var teamService = new TeamService(context);
+
+            var team = new Team
+            {
+                Name = "Valid Team",
+                Country = "Valid Country"
+            };
+
+            teamService.AddTeam(team);
+
+            var dbTeam = context.Teams.FirstOrDefault(t => t.Name == "Valid Team");
+            Assert.NotNull(dbTeam);
+            Assert.Equal("Valid Team", dbTeam.Name);
+            Assert.Equal("Valid Country", dbTeam.Country);
+        }
+
+        [Fact]
+        public void AddTeam_ShouldThrowException_WhenTeamIsNull()
+        {
+            var context = TestDbContext.GetInMemoryDbContext();
+            var teamService = new TeamService(context);
+
+            Team team = null;
+
+            var exception = Assert.Throws<ArgumentException>(() => teamService.AddTeam(team));
+            Assert.Equal("Team cannot be null.", exception.Message);
+        }
+
+        [Fact]
+        public void AddTeam_ShouldEscapeHtml()
+        {
+          
+            var context = TestDbContext.GetInMemoryDbContext();
+            var teamService = new TeamService(context);
+
+            var team = new Team
+            {
+                Name = "<script>alert('XSS')</script>",
+                Country = "Test Country"
+            };
+
+         
+            teamService.AddTeam(team);
+
+           
+            var dbTeam = context.Teams.FirstOrDefault(t => t.Name.Contains("&lt;script&gt;"));
+            Assert.NotNull(dbTeam);
+
+          
+            var expectedEncodedName = WebUtility.HtmlEncode("<script>alert('XSS')</script>");
+            Assert.Equal(expectedEncodedName, dbTeam.Name);
+        }
+
+        [Fact]
+        public void UpdateTeam_ShouldUpdateExistingTeam()
+        {
+            var context = TestDbContext.GetInMemoryDbContext();
+            var teamService = new TeamService(context);
+
+            var team = new Team { Name = "Old Name", Country = "Old Country" };
+            context.Teams.Add(team);
+            context.SaveChanges();
+
+            var updatedTeam = new Team { Id = team.Id, Name = "New Name", Country = "New Country" };
+
+            teamService.UpdateTeam(updatedTeam);
+
+            var dbTeam = context.Teams.FirstOrDefault(t => t.Id == team.Id);
+            Assert.NotNull(dbTeam);
+            Assert.Equal("New Name", dbTeam.Name);
+            Assert.Equal("New Country", dbTeam.Country);
+        }
+
+        [Fact]
+        public void UpdateTeam_ShouldThrowException_WhenTeamNotFound()
+        {
+            var context = TestDbContext.GetInMemoryDbContext();
+            var teamService = new TeamService(context);
+
+            var nonExistentTeam = new Team { Id = 999, Name = "Non-Existent", Country = "Nowhere" };
+
+            var exception = Assert.Throws<ArgumentException>(() => teamService.UpdateTeam(nonExistentTeam));
+            Assert.Equal("Team not found.", exception.Message);
+        }
+
+        [Fact]
+        public void AddTeam_ShouldThrowException_WhenWinsIsNegative()
+        {
+            var context = TestDbContext.GetInMemoryDbContext();
+            var teamService = new TeamService(context);
+
+            var team = new Team { Name = "Invalid Team", Country = "Invalid Country", ChampionsLeagueWins = -1 };
+
+            var exception = Assert.Throws<ArgumentException>(() => teamService.AddTeam(team));
+            Assert.Equal("Champions League Wins must be a non-negative number.", exception.Message);
+        }
+
+        [Fact]
+        public void DeleteTeam_ShouldRemoveTeam_WhenTeamExists()
+        {
+            var context = TestDbContext.GetInMemoryDbContext();
+            var teamService = new TeamService(context);
+
+            var team = new Team { Name = "Team to Delete", Country = "Country" };
+            teamService.AddTeam(team);
+
+            teamService.DeleteTeam(team.Id);
+
+            Assert.Null(context.Teams.FirstOrDefault(t => t.Id == team.Id));
+        }
+
+        [Fact]
+        public void DeleteTeam_ShouldThrowException_WhenTeamDoesNotExist()
+        {
+            var context = TestDbContext.GetInMemoryDbContext();
+            var teamService = new TeamService(context);
+
+            var exception = Assert.Throws<ArgumentException>(() => teamService.DeleteTeam(-1));
+            Assert.Equal("Team not found.", exception.Message);
+        }
     }
 }
 

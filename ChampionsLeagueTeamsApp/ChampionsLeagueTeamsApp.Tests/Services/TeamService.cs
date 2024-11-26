@@ -67,6 +67,18 @@ namespace ChampionsLeagueTeamsApp.Tests.Services
 
             _context.SaveChanges();
         }
+
+        public void DeleteTeam(int teamId)
+        {
+            var team = _context.Teams.FirstOrDefault(t => t.Id == teamId);
+            if (team == null)
+            {
+                throw new ArgumentException("Team not found.");
+            }
+
+            _context.Teams.Remove(team);
+            _context.SaveChanges();
+        }
     }
 
 
