@@ -447,3 +447,5 @@ C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\Champ
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\ChampionsLeagueTeamsApp.pdb
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\ChampionsLeagueTeamsApp.genruntimeconfig.cache
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\obj\Debug\net8.0\ref\ChampionsLeagueTeamsApp.dll
+C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll

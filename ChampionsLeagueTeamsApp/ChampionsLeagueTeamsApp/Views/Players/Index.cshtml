@@ -6,14 +6,13 @@
 
 <h2>Players List</h2>
 
-
-<form method="get" asp-action="Index" class="form-inline mb-4">
-    <div class="form-group">
-        <input type="text" name="searchQuery" value="@ViewData["CurrentFilter"]" class="form-control" placeholder="Search players or teams" />
+<form method="get" asp-controller="Players" asp-action="Index" class="form-inline mb-3">
+    <div class="input-group">
+        <input type="text" name="searchQuery" class="form-control" placeholder="Search players..."
+               value="@ViewData["SearchQuery"]" />
+        <button type="submit" class="btn btn-primary">Search</button>
     </div>
-    <button type="submit" class="btn btn-primary ml-2">Search</button>
 </form>
-
 
 <table class="table">
     <thead>
@@ -38,39 +37,16 @@
 </table>
 
 
-<div class="pagination">
-    @if (ViewData["PageNumber"] != null && ViewData["TotalPages"] != null)
-    {
-        var currentPage = (int)ViewData["PageNumber"];
-        var totalPages = (int)ViewData["TotalPages"];
-
-        <ul class="pagination">
-            @if (currentPage > 1)
-            {
-                <li class="page-item">
-                    <a class="page-link" asp-action="Index" asp-route-pageNumber="1">First</a>
-                </li>
-                <li class="page-item">
-                    <a class="page-link" asp-action="Index" asp-route-pageNumber="@(currentPage - 1)">Previous</a>
-                </li>
-            }
-
-            @for (var i = 1; i <= totalPages; i++)
+<div>
+    <ul class="pagination">
+        @if (ViewData["PageNumber"] is int currentPage && ViewData["TotalPages"] is int totalPages)
+        {
+            for (int i = 1; i <= totalPages; i++)
             {
                 <li class="page-item @(i == currentPage ? "active" : "")">
-                    <a class="page-link" asp-action="Index" asp-route-pageNumber="@i">@i</a>
+                    <a class="page-link" href="@Url.Action("Index", new { pageNumber = i, pageSize = 5, searchQuery = ViewData["CurrentFilter"] })">@i</a>
                 </li>
             }
-
-            @if (currentPage < totalPages)
-            {
-                <li class="page-item">
-                    <a class="page-link" asp-action="Index" asp-route-pageNumber="@(currentPage + 1)">Next</a>
-                </li>
-                <li class="page-item">
-                    <a class="page-link" asp-action="Index" asp-route-pageNumber="@totalPages">Last</a>
-                </li>
-            }
-        </ul>
-    }
+        }
+    </ul>
 </div>

@@ -3,6 +3,74 @@
   "WorkspaceRootPath": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\players\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\players\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\stadiums\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\stadiums\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\titles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\titles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\teams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\teams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\coaches\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\coaches\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\stadiums\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\stadiums\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\shared\\_navigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\shared\\_navigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\models\\coach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\models\\coach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\areas\\identity\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\areas\\identity\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -31,56 +99,12 @@
       "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\areas\\identity\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\shared\\_navigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\shared\\_navigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\models\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\models\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\models\\stadium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\models\\stadium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\models\\coach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\models\\coach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\titles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\titles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\teams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\teams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\coaches\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\coaches\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\players\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\players\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\stadiums\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\stadiums\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\controllers\\coachescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,10 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\controllers\\stadiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\controllers\\stadiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\businesslogic\\stadiumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -183,10 +203,6 @@
       "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\players\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\views\\stadiums\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\views\\stadiums\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -231,10 +247,6 @@
       "RelativeMoniker": "D:0:0:{D69367DB-47F0-4561-AA7C-240322780B37}|ChampionsLeagueTeamsApp.Tests\\ChampionsLeagueTeamsApp.Tests.csproj|solutionrelative:championsleagueteamsapp.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|c:\\users\\gtone\\onedrive\\desktop\\get upload\\asp.net\\championsleagueteamsapp\\championsleagueteamsapp\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FAE26AAF-D56E-4B9E-876B-5A8EAFB427CD}|ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj|solutionrelative:championsleagueteamsapp\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -254,11 +266,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "_Navigation.cshtml",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Shared\\_Navigation.cshtml",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Shared\\_Navigation.cshtml",
@@ -271,103 +283,64 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T09:42:32.208Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "ChampionsLeagueTeamsApp\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:44:34.333Z",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Stadiums\\Index.cshtml",
+              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Stadiums\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Stadiums\\Index.cshtml",
+              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Views\\Stadiums\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T14:40:23.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\ViewModels\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\ViewModels\\RegisterViewModel.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\ViewModels\\RegisterViewModel.cs",
-              "RelativeToolTip": "ChampionsLeagueTeamsApp\\ViewModels\\RegisterViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:45:38.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Areas\\Identity\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Areas\\Identity\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Areas\\Identity\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Areas\\Identity\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAYwGMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:34:48.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Areas\\Identity\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Areas\\Identity\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Areas\\Identity\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Areas\\Identity\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Players\\Index.cshtml",
+              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Players\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Players\\Index.cshtml",
+              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Views\\Players\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T07:37:41.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Areas\\Identity\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Areas\\Identity\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Areas\\Identity\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Areas\\Identity\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T07:38:24.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Models\\Player.cs",
-              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Models\\Player.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Models\\Player.cs",
-              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Models\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T08:45:32.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Team.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Models\\Team.cs",
-              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Models\\Team.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Models\\Team.cs",
-              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Models\\Team.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T08:33:07.939Z",
+              "WhenOpened": "2024-11-12T14:38:54.753Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Titles\\Index.cshtml",
+              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Titles\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Titles\\Index.cshtml",
+              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Views\\Titles\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T14:34:50.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "_Footer.cshtml",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Shared\\_Footer.cshtml",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Shared\\_Footer.cshtml",
@@ -380,20 +353,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-10T08:52:38.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Shared\\_LoginPartial.cshtml",
@@ -406,7 +379,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Teams\\Index.cshtml",
+              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Teams\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Teams\\Index.cshtml",
+              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Views\\Teams\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T14:32:24.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Coaches\\Index.cshtml",
+              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Coaches\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Coaches\\Index.cshtml",
+              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Views\\Coaches\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T14:36:15.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Stadiums\\Details.cshtml",
+              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Stadiums\\Details.cshtml",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Stadiums\\Details.cshtml",
+              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Views\\Stadiums\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T14:40:51.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Program.cs",
+              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Program.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Program.cs",
+              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Program.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAYwGUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T08:34:38.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Home\\Index.cshtml",
@@ -419,33 +444,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Title.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Models\\Title.cs",
-              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Models\\Title.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Models\\Title.cs",
-              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Models\\Title.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T08:34:21.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Stadium.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Models\\Stadium.cs",
-              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Models\\Stadium.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Models\\Stadium.cs",
-              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Models\\Stadium.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "NotificationHub.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Hubs\\NotificationHub.cs",
+              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Hubs\\NotificationHub.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Hubs\\NotificationHub.cs",
+              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Hubs\\NotificationHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T08:46:13.644Z",
+              "WhenOpened": "2024-11-26T07:57:47.15Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T08:36:57.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Areas\\Identity\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Areas\\Identity\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Areas\\Identity\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Areas\\Identity\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T07:38:24.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Models\\Team.cs",
+              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Models\\Team.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Models\\Team.cs",
+              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Models\\Team.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:33:07.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Models\\Player.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Models\\Player.cs",
+              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Models\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:45:32.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Areas\\Identity\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Areas\\Identity\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Areas\\Identity\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Areas\\Identity\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T07:37:41.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:16:04.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Coach.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Models\\Coach.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Models\\Coach.cs",
@@ -458,72 +548,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Titles\\Index.cshtml",
-              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Titles\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Titles\\Index.cshtml",
-              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Views\\Titles\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T14:34:50.446Z",
+              "DocumentIndex": 23,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Areas\\Identity\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Areas\\Identity\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Areas\\Identity\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Areas\\Identity\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAYwGMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T07:34:48.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Teams\\Index.cshtml",
-              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Teams\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Teams\\Index.cshtml",
-              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Views\\Teams\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T14:32:24.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Coaches\\Index.cshtml",
-              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Coaches\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Coaches\\Index.cshtml",
-              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Views\\Coaches\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T14:36:15.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Players\\Index.cshtml",
-              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Players\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Players\\Index.cshtml",
-              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Views\\Players\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T14:38:54.753Z",
+              "DocumentIndex": 22,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "ChampionsLeagueTeamsApp\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T07:45:38.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Stadiums\\Index.cshtml",
-              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Stadiums\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Stadiums\\Index.cshtml",
-              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Views\\Stadiums\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T14:40:23.381Z",
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ChampionsLeagueTeamsApp\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T07:44:34.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
+              "Title": "Title.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Models\\Title.cs",
+              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Models\\Title.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Models\\Title.cs",
+              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Models\\Title.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:34:21.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Stadium.cs",
+              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Models\\Stadium.cs",
+              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Models\\Stadium.cs",
+              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Models\\Stadium.cs",
+              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Models\\Stadium.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAABBwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:46:13.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "CoachesController.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Controllers\\CoachesController.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Controllers\\CoachesController.cs",
@@ -536,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "CoachService.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\BusinessLogic\\CoachService.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\BusinessLogic\\CoachService.cs",
@@ -549,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "IPlayerService.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\BusinessLogic\\IPlayerService.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\BusinessLogic\\IPlayerService.cs",
@@ -557,11 +647,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\BusinessLogic\\IPlayerService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:06:07.938Z"
+              "WhenOpened": "2024-11-24T17:06:07.938Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "StadiumsController.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Controllers\\StadiumsController.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Controllers\\StadiumsController.cs",
@@ -569,23 +660,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\Controllers\\StadiumsController.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAYwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T08:49:51.386Z"
+              "WhenOpened": "2024-11-10T08:49:51.386Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Program.cs",
-              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Program.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Program.cs",
-              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBoAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T08:34:38.219Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "PlayerService.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\BusinessLogic\\PlayerService.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\BusinessLogic\\PlayerService.cs",
@@ -593,11 +673,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\BusinessLogic\\PlayerService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:06:43.628Z"
+              "WhenOpened": "2024-11-24T17:06:43.628Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "IStadiumService.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\BusinessLogic\\IStadiumService.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\BusinessLogic\\IStadiumService.cs",
@@ -605,11 +686,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\BusinessLogic\\IStadiumService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:16:21.536Z"
+              "WhenOpened": "2024-11-24T17:16:21.536Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "StadiumService.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\BusinessLogic\\StadiumService.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\BusinessLogic\\StadiumService.cs",
@@ -617,23 +699,25 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\BusinessLogic\\StadiumService.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAgwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:17:07.288Z"
+              "WhenOpened": "2024-11-24T17:17:07.288Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "PlayersController.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Controllers\\PlayersController.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Controllers\\PlayersController.cs",
               "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Controllers\\PlayersController.cs",
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\Controllers\\PlayersController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAABBwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T08:48:47.784Z"
+              "WhenOpened": "2024-11-10T08:48:47.784Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "ICoachService.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\BusinessLogic\\ICoachService.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\BusinessLogic\\ICoachService.cs",
@@ -641,11 +725,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\BusinessLogic\\ICoachService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T16:28:41.5Z"
+              "WhenOpened": "2024-11-24T16:28:41.5Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "ITeamService.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\BusinessLogic\\ITeamService.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\BusinessLogic\\ITeamService.cs",
@@ -653,11 +738,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\BusinessLogic\\ITeamService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T16:22:19.926Z"
+              "WhenOpened": "2024-11-19T16:22:19.926Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Data\\ApplicationDbContext.cs",
@@ -665,23 +751,25 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAYwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T08:31:58.937Z"
+              "WhenOpened": "2024-11-15T08:31:58.937Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Data\\DbInitializer.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Data\\DbInitializer.cs",
               "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Data\\DbInitializer.cs",
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\Data\\DbInitializer.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwIMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwIMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T07:45:18.898Z"
+              "WhenOpened": "2024-11-20T07:45:18.898Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "ErrorController.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Controllers\\ErrorController.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Controllers\\ErrorController.cs",
@@ -689,11 +777,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\Controllers\\ErrorController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T14:08:25.108Z"
+              "WhenOpened": "2024-11-18T14:08:25.108Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "TeamService.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\BusinessLogic\\TeamService.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\BusinessLogic\\TeamService.cs",
@@ -701,11 +790,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\BusinessLogic\\TeamService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T16:26:55.503Z"
+              "WhenOpened": "2024-11-19T16:26:55.503Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "ITitlesService.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\BusinessLogic\\ITitlesService.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\BusinessLogic\\ITitlesService.cs",
@@ -713,11 +803,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\BusinessLogic\\ITitlesService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T15:14:43.657Z"
+              "WhenOpened": "2024-11-22T15:14:43.657Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "TitlesService.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\BusinessLogic\\TitlesService.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\BusinessLogic\\TitlesService.cs",
@@ -725,11 +816,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\BusinessLogic\\TitlesService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T15:15:33.128Z"
+              "WhenOpened": "2024-11-22T15:15:33.128Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "TitlesController.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Controllers\\TitlesController.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Controllers\\TitlesController.cs",
@@ -737,11 +829,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\Controllers\\TitlesController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAQwB8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T08:46:50.041Z"
+              "WhenOpened": "2024-11-10T08:46:50.041Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "TeamsController.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Controllers\\TeamsController.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Controllers\\TeamsController.cs",
@@ -749,11 +842,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\Controllers\\TeamsController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwCkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T08:35:19.823Z"
+              "WhenOpened": "2024-11-10T08:35:19.823Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 63,
               "Title": "20241121091514_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Migrations\\20241121091514_InitialCreate.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Migrations\\20241121091514_InitialCreate.cs",
@@ -761,35 +855,34 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\Migrations\\20241121091514_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T09:15:14.381Z"
+              "WhenOpened": "2024-11-21T09:15:14.381Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "20241121090839_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Migrations\\20241121090839_InitialCreate.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Migrations\\20241121090839_InitialCreate.cs",
               "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Migrations\\20241121090839_InitialCreate.cs",
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\Migrations\\20241121090839_InitialCreate.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T09:08:39.937Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "20241121084757_UpdateDatabas.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Migrations\\20241121084757_UpdateDatabas.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Migrations\\20241121084757_UpdateDatabas.cs",
               "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Migrations\\20241121084757_UpdateDatabas.cs",
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\Migrations\\20241121084757_UpdateDatabas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T08:47:57.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Teams\\Details.cshtml",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Teams\\Details.cshtml",
@@ -797,11 +890,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\Views\\Teams\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T14:33:25.895Z"
+              "WhenOpened": "2024-11-12T14:33:25.895Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Titles\\Details.cshtml",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Titles\\Details.cshtml",
@@ -809,11 +903,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\Views\\Titles\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T14:35:32.075Z"
+              "WhenOpened": "2024-11-12T14:35:32.075Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Coaches\\Details.cshtml",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Coaches\\Details.cshtml",
@@ -821,11 +916,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\Views\\Coaches\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T14:36:45.072Z"
+              "WhenOpened": "2024-11-12T14:36:45.072Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Players\\Details.cshtml",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Players\\Details.cshtml",
@@ -833,23 +929,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\Views\\Players\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T14:39:33.104Z"
+              "WhenOpened": "2024-11-12T14:39:33.104Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Stadiums\\Details.cshtml",
-              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Stadiums\\Details.cshtml",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Stadiums\\Details.cshtml",
-              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Views\\Stadiums\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T14:40:51.082Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 50,
               "Title": "global.json",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\global.json",
               "RelativeDocumentMoniker": "global.json",
@@ -857,11 +942,12 @@
               "RelativeToolTip": "global.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-20T16:27:13.959Z"
+              "WhenOpened": "2024-11-20T16:27:13.959Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 51,
               "Title": "ChampionsLeagueTeamsApp.csproj",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj",
@@ -869,35 +955,36 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-15T09:03:13.84Z"
+              "WhenOpened": "2024-11-15T09:03:13.84Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 52,
               "Title": "20241120084534_AddDetailsToCoach.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Migrations\\20241120084534_AddDetailsToCoach.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Migrations\\20241120084534_AddDetailsToCoach.cs",
               "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Migrations\\20241120084534_AddDetailsToCoach.cs",
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\Migrations\\20241120084534_AddDetailsToCoach.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T08:45:34.416Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 53,
               "Title": "TeamService.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.Tests\\Services\\TeamService.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp.Tests\\Services\\TeamService.cs",
               "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.Tests\\Services\\TeamService.cs",
               "RelativeToolTip": "ChampionsLeagueTeamsApp.Tests\\Services\\TeamService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T08:32:16.109Z"
+              "WhenOpened": "2024-11-18T08:32:16.109Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 54,
               "Title": "TeamServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.Tests\\Services\\TeamServiceTests.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp.Tests\\Services\\TeamServiceTests.cs",
@@ -905,11 +992,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp.Tests\\Services\\TeamServiceTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T09:01:21.769Z"
+              "WhenOpened": "2024-11-18T09:01:21.769Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 55,
               "Title": "HtmlHelper.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Helpers\\HtmlHelper.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Helpers\\HtmlHelper.cs",
@@ -922,7 +1010,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 56,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\appsettings.json",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\appsettings.json",
@@ -930,11 +1018,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-15T08:33:26.546Z"
+              "WhenOpened": "2024-11-15T08:33:26.546Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 57,
               "Title": "InternalServerError.cshtml",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Error\\InternalServerError.cshtml",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Error\\InternalServerError.cshtml",
@@ -942,11 +1031,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\Views\\Error\\InternalServerError.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T14:10:59.316Z"
+              "WhenOpened": "2024-11-18T14:10:59.316Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 58,
               "Title": "NotFound.cshtml",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Views\\Error\\NotFound.cshtml",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Views\\Error\\NotFound.cshtml",
@@ -954,11 +1044,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\Views\\Error\\NotFound.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T14:10:21.868Z"
+              "WhenOpened": "2024-11-18T14:10:21.868Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 59,
               "Title": "TestDbContext.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.Tests\\Data\\TestDbContext.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp.Tests\\Data\\TestDbContext.cs",
@@ -966,11 +1057,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp.Tests\\Data\\TestDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T08:25:02.649Z"
+              "WhenOpened": "2024-11-18T08:25:02.649Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 60,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp.Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp.Tests\\UnitTest1.cs",
@@ -978,23 +1070,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp.Tests\\UnitTest1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T08:16:24.567Z"
+              "WhenOpened": "2024-11-18T08:16:24.567Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "ChampionsLeagueTeamsApp\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T10:16:04.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 61,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
@@ -1002,11 +1083,12 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-15T10:20:43.58Z"
+              "WhenOpened": "2024-11-15T10:20:43.58Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 62,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\gtone\\OneDrive\\Desktop\\Get Upload\\ASP.Net\\ChampionsLeagueTeamsApp\\ChampionsLeagueTeamsApp\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "ChampionsLeagueTeamsApp\\wwwroot\\css\\site.css",
@@ -1014,7 +1096,8 @@
               "RelativeToolTip": "ChampionsLeagueTeamsApp\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-16T16:57:20.125Z"
+              "WhenOpened": "2024-11-16T16:57:20.125Z",
+              "EditorCaption": ""
             }
           ]
         }

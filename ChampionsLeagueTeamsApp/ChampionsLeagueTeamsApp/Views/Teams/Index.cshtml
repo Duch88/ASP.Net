@@ -45,31 +45,16 @@
     </tbody>
 </table>
 
-
-@if (ViewData["TotalPages"] != null && (int)ViewData["TotalPages"] > 1)
-{
-    int currentPage = (int)ViewData["PageNumber"];
-    int totalPages = (int)ViewData["TotalPages"];
-
-    <nav>
+    <div>
         <ul class="pagination">
-
-            <li class="page-item @(currentPage == 1 ? "disabled" : "")">
-                <a class="page-link" href="@Url.Action("Index", new { pageNumber = currentPage - 1, pageSize = ViewData["PageSize"], searchQuery = ViewData["SearchQuery"] })">Previous</a>
-            </li>
-
-
-            @for (int i = 1; i <= totalPages; i++)
+            @if (ViewData["PageNumber"] is int currentPage && ViewData["TotalPages"] is int totalPages)
             {
-                <li class="page-item @(i == currentPage ? "active" : "")">
-                    <a class="page-link" href="@Url.Action("Index", new { pageNumber = i, pageSize = ViewData["PageSize"], searchQuery = ViewData["SearchQuery"] })">@i</a>
-                </li>
+                for (int i = 1; i <= totalPages; i++)
+                {
+                    <li class="page-item @(i == currentPage ? "active" : "")">
+                        <a class="page-link" href="@Url.Action("Index", new { pageNumber = i, pageSize = 5, searchQuery = ViewData["CurrentFilter"] })">@i</a>
+                    </li>
+                }
             }
-
-
-            <li class="page-item @(currentPage == totalPages ? "disabled" : "")">
-                <a class="page-link" href="@Url.Action("Index", new { pageNumber = currentPage + 1, pageSize = ViewData["PageSize"], searchQuery = ViewData["SearchQuery"] })">Next</a>
-            </li>
         </ul>
-    </nav>
-}
+    </div>

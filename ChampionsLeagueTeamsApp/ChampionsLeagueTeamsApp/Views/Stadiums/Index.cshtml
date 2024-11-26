@@ -6,10 +6,12 @@
 
 <h2>Stadiums List</h2>
 
-
-<form method="get" class="form-inline">
-    <input type="text" name="searchQuery" value="@ViewData["CurrentFilter"]" placeholder="Search..." class="form-control" />
-    <button type="submit" class="btn btn-primary">Search</button>
+<form method="get" asp-controller="Stadiums" asp-action="Index" class="form-inline mb-3">
+    <div class="input-group">
+        <input type="text" name="searchQuery" class="form-control" placeholder="Search stadiums..."
+               value="@ViewData["SearchQuery"]" />
+        <button type="submit" class="btn btn-primary">Search</button>
+    </div>
 </form>
 
 <table class="table">

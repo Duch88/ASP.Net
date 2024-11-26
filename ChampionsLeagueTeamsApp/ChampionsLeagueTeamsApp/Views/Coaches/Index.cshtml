@@ -7,10 +7,11 @@
 <h2>Coaches List</h2>
 
 
-<form method="get" asp-action="Index">
-    <div class="form-group">
-        <input type="text" name="searchQuery" value="@ViewData["CurrentFilter"]" class="form-control" placeholder="Search by coach or team..." />
-        <button type="submit" class="btn btn-primary mt-2">Search</button>
+<form method="get" asp-controller="Coaches" asp-action="Index" class="form-inline mb-3">
+    <div class="input-group">
+        <input type="text" name="searchQuery" class="form-control" placeholder="Search coaches..."
+               value="@ViewData["SearchQuery"]" />
+        <button type="submit" class="btn btn-primary">Search</button>
     </div>
 </form>
 
@@ -46,31 +47,15 @@
 
 
 <div>
-    @if (ViewData["PageNumber"] != null && ViewData["TotalPages"] != null)
-    {
-        int pageNumber = (int)ViewData["PageNumber"];
-        int totalPages = (int)ViewData["TotalPages"];
-
-        <nav>
-            <ul class="pagination justify-content-center">
-                @if (pageNumber > 1)
-                {
-                    <li class="page-item">
-                        <a class="page-link" asp-action="Index" asp-route-pageNumber="@(pageNumber - 1)" asp-route-searchQuery="@ViewData["CurrentFilter"]">Previous</a>
-                    </li>
-                }
-
-                <li class="page-item disabled">
-                    <span class="page-link">Page @pageNumber of @totalPages</span>
+    <ul class="pagination">
+        @if (ViewData["PageNumber"] is int currentPage && ViewData["TotalPages"] is int totalPages)
+        {
+            for (int i = 1; i <= totalPages; i++)
+            {
+                <li class="page-item @(i == currentPage ? "active" : "")">
+                    <a class="page-link" href="@Url.Action("Index", new { pageNumber = i, pageSize = 5, searchQuery = ViewData["CurrentFilter"] })">@i</a>
                 </li>
-
-                @if (pageNumber < totalPages)
-                {
-                    <li class="page-item">
-                        <a class="page-link" asp-action="Index" asp-route-pageNumber="@(pageNumber + 1)" asp-route-searchQuery="@ViewData["CurrentFilter"]">Next</a>
-                    </li>
-                }
-            </ul>
-        </nav>
-    }
+            }
+        }
+    </ul>
 </div>

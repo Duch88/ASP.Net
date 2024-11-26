@@ -486,3 +486,4 @@ C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\Champ
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp.Tests\obj\Debug\net8.0\ChampionsLeagueTeamsApp.Tests.pdb
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp.Tests\obj\Debug\net8.0\ChampionsLeagueTeamsApp.Tests.genruntimeconfig.cache
 C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp.Tests\obj\Debug\net8.0\ref\ChampionsLeagueTeamsApp.Tests.dll
+C:\Users\gtone\OneDrive\Desktop\Get Upload\ASP.Net\ChampionsLeagueTeamsApp\ChampionsLeagueTeamsApp.Tests\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll

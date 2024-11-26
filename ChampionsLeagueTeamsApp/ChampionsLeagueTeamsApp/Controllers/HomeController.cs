@@ -1,4 +1,5 @@
 using ChampionsLeagueTeamsApp.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -28,5 +29,6 @@ namespace ChampionsLeagueTeamsApp.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
     }
 }
