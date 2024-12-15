@@ -1,9 +1,36 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">ChampionsLeague</h1>
+    <div style="position: absolute; top: 10px; right: 10px;">
+        @if (SignInManager.IsSignedIn(User))
+        {
+            <div class="d-flex align-items-center">
+                <span class="mr-3">Welcome, @UserManager.GetUserName(User)!</span>
+                <form asp-area="Identity"
+                      asp-controller="Account"
+                      asp-action="Logout"
+                      method="post"
+                      class="d-inline">
+                    <button type="submit" class="btn btn-danger ml-2">
+                        Logout
+                    </button>
+                </form>
+            </div>
+        }
+        else
+        {
+            <a asp-area="Identity" asp-controller="Account" asp-action="Login" class="btn btn-primary">
+                Login
+            </a>
+        }
+    </div>
 </div>
 
 <div class="text-center mt-4">

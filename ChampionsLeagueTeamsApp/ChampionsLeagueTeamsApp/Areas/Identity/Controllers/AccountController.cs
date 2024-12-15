@@ -100,5 +100,14 @@ namespace ChampionsLeagueTeamsApp.Areas.Identity.Controllers
             }
             return View(model);
         }
+
+        [HttpGet]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            _logger.LogInformation("User logged out.");
+            return RedirectToAction("Index", "Home");
+        }
     }
 }

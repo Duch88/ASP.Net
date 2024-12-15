@@ -104,6 +104,12 @@ namespace ChampionsLeagueTeamsApp
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
+            app.MapControllerRoute(
+                name: "identity",
+                pattern: "Identity/{controller}/{action}/{id?}",
+                defaults: new { area = "Identity" }
+);
+
             // Razor Pages route
             app.MapRazorPages();
 
