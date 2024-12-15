@@ -40,8 +40,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/gtone/OneDrive/Desktop/Get Upload/ASP.Net/ChampionsLeagueTeamsApp/ChampionsLeagueTeamsApp/Views/Coaches/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29hY2hlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gtone/OneDrive/Desktop/Get Upload/ASP.Net/ChampionsLeagueTeamsApp/ChampionsLeagueTeamsApp/Views/Coaches/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29hY2hlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/gtone/OneDrive/Desktop/Get Upload/ASP.Net/ChampionsLeagueTeamsApp/ChampionsLeagueTeamsApp/Views/Coaches/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29hY2hlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gtone/OneDrive/Desktop/Get Upload/ASP.Net/ChampionsLeagueTeamsApp/ChampionsLeagueTeamsApp/Views/Coaches/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29hY2hlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/gtone/OneDrive/Desktop/Get Upload/ASP.Net/ChampionsLeagueTeamsApp/ChampionsLeagueTeamsApp/Views/Coaches/Index.cshtml]
