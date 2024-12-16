@@ -365,7 +365,7 @@ namespace ChampionsLeagueTeamsApp.Migrations
             modelBuilder.Entity("ChampionsLeagueTeamsApp.Models.Coach", b =>
                 {
                     b.HasOne("ChampionsLeagueTeamsApp.Models.Team", "Team")
-                        .WithMany()
+                        .WithMany("Coaches")
                         .HasForeignKey("TeamId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -459,6 +459,8 @@ namespace ChampionsLeagueTeamsApp.Migrations
 
             modelBuilder.Entity("ChampionsLeagueTeamsApp.Models.Team", b =>
                 {
+                    b.Navigation("Coaches");
+
                     b.Navigation("Titles");
                 });
 #pragma warning restore 612, 618

@@ -59,32 +59,62 @@ namespace ChampionsLeagueTeamsApp.Controllers
             return View(coach);
         }
 
-        
         public IActionResult Create()
         {
-            // Ако искате да изберете отбор
-            ViewBag.Teams = new SelectList(_context.Teams, "Id", "Name");
+            var teams = _context.Teams
+                .Where(t => t.Name != null)
+                .ToList();
+
+            ViewBag.Teams = new SelectList(teams, "Id", "Name");
             return View();
         }
 
-        
+        // POST: Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Coach coach)
         {
+           
             if (ModelState.IsValid)
             {
-                _context.Coaches.Add(coach);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                try
+                {
+                    
+                    if (!_context.Teams.Any(t => t.Id == coach.TeamId))
+                    {
+                        ModelState.AddModelError("TeamId", "Отборът не съществува.");
+                        ViewBag.Teams = new SelectList(_context.Teams, "Id", "Name", coach.TeamId);
+                        return View(coach);
+                    }
+
+                    
+                    if (_context.Coaches.Any(c => c.TeamId == coach.TeamId))
+                    {
+                        ModelState.AddModelError("TeamId", "Този отбор вече има треньор.");
+                        ViewBag.Teams = new SelectList(_context.Teams, "Id", "Name", coach.TeamId);
+                        return View(coach);
+                    }
+
+                    
+                    _context.Coaches.Add(coach);
+                    await _context.SaveChangesAsync();
+
+                    
+                    return RedirectToAction(nameof(Index));
+                }
+                catch (DbUpdateException ex)
+                {
+                    
+                    ModelState.AddModelError("", "Възникна грешка при запазването на треньора.");
+                    ViewBag.Teams = new SelectList(_context.Teams, "Id", "Name", coach.TeamId);
+                    return View(coach);
+                }
             }
 
             
-            ViewBag.Teams = new SelectList(_context.Teams, "Id", "Name");
+            ViewBag.Teams = new SelectList(_context.Teams, "Id", "Name", coach.TeamId);
             return View(coach);
         }
-
-        
         public async Task<IActionResult> Edit(int id)
         {
             var coach = await _context.Coaches.FindAsync(id);

@@ -5,7 +5,7 @@
 namespace ChampionsLeagueTeamsApp.Migrations
 {
     /// <inheritdoc />
-    public partial class @new : Migration
+    public partial class AddCoach2 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

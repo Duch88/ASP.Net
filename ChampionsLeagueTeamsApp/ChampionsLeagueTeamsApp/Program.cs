@@ -30,12 +30,21 @@ namespace ChampionsLeagueTeamsApp
             // Configure SignalR
             builder.Services.AddSignalR();
 
+            builder.Services.ConfigureApplicationCookie(options =>
+            {
+                options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+                options.Cookie.SameSite = SameSiteMode.Strict; 
+            });
             // MVC and Razor Pages settings
             builder.Services.AddControllersWithViews(options =>
             {
                 options.SuppressOutputFormatterBuffering = true;
-            }).AddRazorRuntimeCompilation();
-            builder.Services.AddRazorPages();
+            })
+                        .AddRazorRuntimeCompilation()
+                        .AddViewOptions(options =>
+            {
+                options.HtmlHelperOptions.ClientValidationEnabled = true;
+            });
 
             // Data protection
             builder.Services.AddDataProtection();

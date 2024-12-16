@@ -16,6 +16,8 @@ namespace ChampionsLeagueTeamsApp.Models
         [Range(0, int.MaxValue, ErrorMessage = "Champions League Wins must be a non-negative number.")]
         public int ChampionsLeagueWins { get; set; }
 
+        public ICollection<Coach> Coaches { get; set; }
+
         public List<Title> Titles { get; set; } = new List<Title>();
     }
 }

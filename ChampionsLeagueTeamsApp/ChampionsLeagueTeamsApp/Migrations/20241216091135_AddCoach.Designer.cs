@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ChampionsLeagueTeamsApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241215133936_new")]
-    partial class @new
+    [Migration("20241216091135_AddCoach")]
+    partial class AddCoach
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -368,7 +368,7 @@ namespace ChampionsLeagueTeamsApp.Migrations
             modelBuilder.Entity("ChampionsLeagueTeamsApp.Models.Coach", b =>
                 {
                     b.HasOne("ChampionsLeagueTeamsApp.Models.Team", "Team")
-                        .WithMany()
+                        .WithMany("Coaches")
                         .HasForeignKey("TeamId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -462,6 +462,8 @@ namespace ChampionsLeagueTeamsApp.Migrations
 
             modelBuilder.Entity("ChampionsLeagueTeamsApp.Models.Team", b =>
                 {
+                    b.Navigation("Coaches");
+
                     b.Navigation("Titles");
                 });
 #pragma warning restore 612, 618
