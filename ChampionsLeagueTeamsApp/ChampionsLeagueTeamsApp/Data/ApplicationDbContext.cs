@@ -38,8 +38,10 @@ namespace ChampionsLeagueTeamsApp.Data
 
             modelBuilder.Entity<Coach>(entity =>
             {
-                entity.Property(e => e.Name).IsRequired().HasMaxLength(100);
-                entity.Property(e => e.Experience).IsRequired();
+                entity.HasOne(c => c.Team)
+                      .WithMany(t => t.Coaches)
+                      .HasForeignKey(c => c.TeamId)
+                      .OnDelete(DeleteBehavior.Cascade);
             });
 
 

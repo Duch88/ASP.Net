@@ -12,7 +12,7 @@ namespace ChampionsLeagueTeamsApp
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Configure services
+          
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -20,14 +20,14 @@ namespace ChampionsLeagueTeamsApp
                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-            // Register custom services
+            
             builder.Services.AddScoped<ITitlesService, TitlesService>();
             builder.Services.AddScoped<ITeamService, TeamService>();
             builder.Services.AddScoped<ICoachService, CoachService>();
             builder.Services.AddScoped<IPlayerService, PlayerService>();
             builder.Services.AddScoped<IStadiumService, StadiumService>();
 
-            // Configure SignalR
+           
             builder.Services.AddSignalR();
 
             builder.Services.ConfigureApplicationCookie(options =>
@@ -35,7 +35,7 @@ namespace ChampionsLeagueTeamsApp
                 options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
                 options.Cookie.SameSite = SameSiteMode.Strict; 
             });
-            // MVC and Razor Pages settings
+           
             builder.Services.AddControllersWithViews(options =>
             {
                 options.SuppressOutputFormatterBuffering = true;
@@ -46,12 +46,12 @@ namespace ChampionsLeagueTeamsApp
                 options.HtmlHelperOptions.ClientValidationEnabled = true;
             });
 
-            // Data protection
+           
             builder.Services.AddDataProtection();
 
             var app = builder.Build();
 
-            // Initialize database and roles
+           
             using (var scope = app.Services.CreateScope())
             {
                 var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
@@ -60,7 +60,7 @@ namespace ChampionsLeagueTeamsApp
                 var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
                 var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
 
-                // Ensure roles exist
+                
                 if (!await roleManager.RoleExistsAsync("Administrator"))
                 {
                     await roleManager.CreateAsync(new IdentityRole("Administrator"));
@@ -71,7 +71,7 @@ namespace ChampionsLeagueTeamsApp
                     await roleManager.CreateAsync(new IdentityRole("User"));
                 }
 
-                // Create default admin user
+                
                 var adminEmail = "admin@example.com";
                 var adminPassword = "Admin@123";
                 if (await userManager.FindByEmailAsync(adminEmail) == null)
@@ -82,7 +82,7 @@ namespace ChampionsLeagueTeamsApp
                 }
             }
 
-            // Configure HTTP request pipeline
+            
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
@@ -91,7 +91,7 @@ namespace ChampionsLeagueTeamsApp
                 app.UseStatusCodePagesWithReExecute("/Error/{0}");
             }
 
-            // SignalR Hub mapping
+            
             app.MapHub<NotificationHub>("/notificationHub");
 
             app.UseHttpsRedirection();
@@ -99,27 +99,17 @@ namespace ChampionsLeagueTeamsApp
 
             app.UseRouting();
 
-            // Add authentication and authorization middleware
-            app.UseAuthentication();
+            app.UseAuthentication(); 
             app.UseAuthorization();
 
-            // Admin area route
-            app.MapControllerRoute(
-                name: "admin",
-                pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}");
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
+            });
 
-            // Default route
-            app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
-
-            app.MapControllerRoute(
-                name: "identity",
-                pattern: "Identity/{controller}/{action}/{id?}",
-                defaults: new { area = "Identity" }
-);
-
-            // Razor Pages route
+    
             app.MapRazorPages();
 
             app.Run();

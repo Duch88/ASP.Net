@@ -61,73 +61,60 @@ namespace ChampionsLeagueTeamsApp.Controllers
 
         public IActionResult Create()
         {
-            var teams = _context.Teams
-                .Where(t => t.Name != null)
-                .ToList();
-
-            ViewBag.Teams = new SelectList(teams, "Id", "Name");
+            
+            ViewBag.Teams = new SelectList(_context.Teams, "Id", "Name");
             return View();
         }
 
-        // POST: Create
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Coach coach)
         {
-           
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                try
+              
+                foreach (var modelState in ModelState.Values)
                 {
-                    
-                    if (!_context.Teams.Any(t => t.Id == coach.TeamId))
+                    foreach (var error in modelState.Errors)
                     {
-                        ModelState.AddModelError("TeamId", "Отборът не съществува.");
-                        ViewBag.Teams = new SelectList(_context.Teams, "Id", "Name", coach.TeamId);
-                        return View(coach);
+                        
+                        System.Diagnostics.Debug.WriteLine($"Validation Error: {error.ErrorMessage}");
                     }
-
-                    
-                    if (_context.Coaches.Any(c => c.TeamId == coach.TeamId))
-                    {
-                        ModelState.AddModelError("TeamId", "Този отбор вече има треньор.");
-                        ViewBag.Teams = new SelectList(_context.Teams, "Id", "Name", coach.TeamId);
-                        return View(coach);
-                    }
-
-                    
-                    _context.Coaches.Add(coach);
-                    await _context.SaveChangesAsync();
-
-                    
-                    return RedirectToAction(nameof(Index));
                 }
-                catch (DbUpdateException ex)
+
+                
+                ViewBag.Teams = new SelectList(_context.Teams, "Id", "Name");
+                return View(coach);
+            }
+
+            try
+            {
+                
+                var teamExists = await _context.Teams.AnyAsync(t => t.Id == coach.TeamId);
+                if (!teamExists)
                 {
-                    
-                    ModelState.AddModelError("", "Възникна грешка при запазването на треньора.");
-                    ViewBag.Teams = new SelectList(_context.Teams, "Id", "Name", coach.TeamId);
+                    ModelState.AddModelError("TeamId", "Selected team does not exist.");
+                    ViewBag.Teams = new SelectList(_context.Teams, "Id", "Name");
                     return View(coach);
                 }
-            }
 
-            
-            ViewBag.Teams = new SelectList(_context.Teams, "Id", "Name", coach.TeamId);
-            return View(coach);
-        }
-        public async Task<IActionResult> Edit(int id)
-        {
-            var coach = await _context.Coaches.FindAsync(id);
-            if (coach == null)
+                _context.Coaches.Add(coach);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception ex)
             {
-                return NotFound();
-            }
+                
+                System.Diagnostics.Debug.WriteLine($"Exception: {ex.Message}");
 
-            ViewBag.Teams = new SelectList(_context.Teams, "Id", "Name", coach.TeamId);
-            return View(coach);
+                ViewBag.Teams = new SelectList(_context.Teams, "Id", "Name");
+                ModelState.AddModelError("", "An error occurred while saving the coach.");
+                return View(coach);
+            }
         }
 
-        
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, Coach coach)

@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ChampionsLeagueTeamsApp.Models
 {
@@ -7,15 +8,19 @@ namespace ChampionsLeagueTeamsApp.Models
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Name is required.")]
+        [Display(Name = "Coach Name")]
         [StringLength(100, ErrorMessage = "Name cannot exceed 100 characters.")]
         public string Name { get; set; } = null!;
 
-        [Required(ErrorMessage = "Experience is required.")]
+        [Display(Name = "Coaching Experience")]
         [Range(0, 50, ErrorMessage = "Experience must be between 0 and 50 years.")]
         public int Experience { get; set; }
 
-        [Required(ErrorMessage = "TeamId is required.")]
+        [Required(ErrorMessage = "Team is required.")]
+        [Display(Name = "Team")]
         public int TeamId { get; set; }
-        public Team Team { get; set; }
+
+        [ForeignKey("TeamId")]
+        public virtual Team Team { get; set; }
     }
 }

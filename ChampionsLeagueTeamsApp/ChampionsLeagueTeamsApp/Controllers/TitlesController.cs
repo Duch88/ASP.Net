@@ -2,24 +2,24 @@
 using ChampionsLeagueTeamsApp.Models;
 using ChampionsLeagueTeamsApp.Data;
 using Microsoft.EntityFrameworkCore;
-using ChampionsLeagueTeamsApp.BusinessLogic;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ChampionsLeagueTeamsApp.Controllers
 {
+    [Authorize]
     public class TitlesController : Controller
     {
-        private readonly ITitlesService _titlesService;
+        private readonly ApplicationDbContext _context;
 
-        public TitlesController(ITitlesService titlesService)
+        public TitlesController(ApplicationDbContext context)
         {
-            _titlesService = titlesService;
+            _context = context;
         }
 
-        public async Task<IActionResult> Index(int pageNumber = 1, int pageSize = 5, string? searchQuery = null)
+        public async Task<IActionResult> Index(string? searchQuery = null, int pageNumber = 1, int pageSize = 5)
         {
-
-            var titlesQuery = await _titlesService.GetAllTitlesAsync();
-
+            IQueryable<Title> titlesQuery = _context.Titles.Include(t => t.Team);
 
             if (!string.IsNullOrEmpty(searchQuery))
             {
@@ -27,22 +27,34 @@ namespace ChampionsLeagueTeamsApp.Controllers
                 ViewData["CurrentFilter"] = searchQuery;
             }
 
+            var totalTitlesCount = await titlesQuery.CountAsync();
 
-            var totalTitlesCount = titlesQuery.Count();
-            var titles = titlesQuery
+            var titles = await titlesQuery
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
-                .ToList();
-
+                .ToListAsync();
 
             var totalPages = (int)Math.Ceiling((double)totalTitlesCount / pageSize);
-
 
             ViewData["PageNumber"] = pageNumber;
             ViewData["TotalPages"] = totalPages;
 
-            return View(titles);  
+            return View(titles);
         }
 
+        public async Task<IActionResult> Details(int id)
+        {
+            var title = await _context.Titles
+                .Include(t => t.Team)
+                .FirstOrDefaultAsync(t => t.Id == id);
+
+            if (title == null)
+            {
+                return NotFound();
+            }
+
+            return View(title);
+        }
+        
     }
 }
