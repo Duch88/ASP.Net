@@ -12,6 +12,7 @@ namespace ChampionsLeagueTeamsApp.Models
 
         [Required(ErrorMessage = "Team is required.")]
         public int TeamId { get; set; }
-        public Team Team { get; set; }
+
+        public Team Team { get; set; } 
     }
 }

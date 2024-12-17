@@ -4,13 +4,16 @@
     ViewData["Title"] = "Player Details";
 }
 
-<h2>Player Details</h2>
+<h2>@Model.Name</h2>
 
 <div>
-    <p><strong>Name:</strong> @Html.Encode(Model.Name)</p>
-    <p><strong>Position:</strong> @Html.Encode(Model.Position)</p>
-    <p><strong>Goals:</strong> @Html.Encode(Model.ToString())Goals)</p>
-    <p><strong>Team:</strong> @Html.Encode(Model.Team.Name)</p>
+    <strong>Position:</strong> @Html.DisplayFor(m => m.Position)
+</div>
+<div>
+    <strong>Goals:</strong> @Html.DisplayFor(m => m.Goals)
+</div>
+<div>
+    <strong>Team:</strong> @Html.DisplayFor(m => m.Team.Name)
 </div>
 
-<a class="btn btn-secondary" asp-controller="Players" asp-action="Index">Back to List</a>
+<a asp-action="Index" class="btn btn-primary">Back to List</a>

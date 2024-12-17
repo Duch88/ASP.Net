@@ -45,5 +45,19 @@ namespace ChampionsLeagueTeamsApp.Controllers
 
             return View(players);
         }
+
+        public async Task<IActionResult> Details(int id)
+        {
+            var player = await _context.Players
+                .Include(p => p.Team) 
+                .FirstOrDefaultAsync(p => p.Id == id); 
+
+            if (player == null)
+            {
+                return NotFound(); 
+            }
+
+            return View(player); 
+        }
     }
 }

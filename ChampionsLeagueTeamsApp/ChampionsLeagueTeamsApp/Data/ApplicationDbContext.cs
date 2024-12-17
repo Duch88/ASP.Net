@@ -63,7 +63,14 @@ namespace ChampionsLeagueTeamsApp.Data
 
             modelBuilder.Entity<Title>(entity =>
             {
-                entity.Property(e => e.Year).IsRequired();
+                entity.Property(e => e.Year)
+                      .IsRequired();
+
+                
+                entity.HasOne(t => t.Team)           
+                      .WithMany(t => t.Titles)       
+                      .HasForeignKey(t => t.TeamId)  
+                      .OnDelete(DeleteBehavior.Cascade); 
             });
         }
 

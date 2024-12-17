@@ -6,8 +6,6 @@
 
 <h2>Coaches List</h2>
 
-<a asp-action="Create" class="btn btn-success mb-3">Create New Coach</a>
-
 <form method="get" asp-controller="Coaches" asp-action="Index" class="form-inline mb-3">
     <div class="input-group">
         <input type="text" name="searchQuery" class="form-control" placeholder="Search coaches..."
@@ -41,9 +39,6 @@
                     <td>@Html.Encode(coach.Experience)</td>
                     <td>@Html.Encode(coach.Team.Name)</td>
                     <td>
-                        
-                        <a asp-action="Edit" asp-route-id="@coach.Id" class="btn btn-sm btn-warning">Edit</a>
-                        <a asp-action="Delete" asp-route-id="@coach.Id" class="btn btn-sm btn-danger">Delete</a>
                         <a asp-action="Details" asp-route-id="@coach.Id" class="btn btn-sm btn-info">Details</a>
                     </td>
                 </tr>

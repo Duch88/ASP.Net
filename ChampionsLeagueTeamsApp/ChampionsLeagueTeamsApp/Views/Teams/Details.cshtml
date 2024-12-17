@@ -9,7 +9,7 @@
 <div>
     <p><strong>Name:</strong>  @Html.Encode(Model.Name)</p>
     <p><strong>Country:</strong> @Html.Encode(Model.Country)</p>
-    <p><strong>Champions League Titles:</strong>@Html.Encode(Model.ToString())ChampionsLeagueWins)</p>
+    <p><<strong>Champions League Titles:</strong> @Model.ChampionsLeagueWins</p>
 </div>
 
 <a class="btn btn-secondary" asp-controller="Teams" asp-action="Index">Back to List</a>

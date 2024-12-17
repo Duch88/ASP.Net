@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ChampionsLeagueTeamsApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241216091135_AddCoach")]
-    partial class AddCoach
+    [Migration("20241217072631_NewFix")]
+    partial class NewFix
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -20,6 +20,7 @@
             <th>Name</th>
             <th>Capacity</th>
             <th>Location</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
@@ -29,11 +30,13 @@
                 <td>@Html.Encode(stadium.Name)</td>
                 <td>@Html.Encode(stadium.Capacity)</td>
                 <td>@Html.Encode(stadium.Location)</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@stadium.Id" class="btn btn-info btn-sm">Details</a>
+                </td>
             </tr>
         }
     </tbody>
 </table>
-
 
 <div>
     <ul class="pagination">

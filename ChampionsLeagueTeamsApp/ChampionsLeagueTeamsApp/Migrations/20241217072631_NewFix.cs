@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ChampionsLeagueTeamsApp.Migrations
 {
     /// <inheritdoc />
-    public partial class Newcoach : Migration
+    public partial class NewFix : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

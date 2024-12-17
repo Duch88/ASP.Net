@@ -2,48 +2,63 @@
 using ChampionsLeagueTeamsApp.Models;
 using ChampionsLeagueTeamsApp.Data;
 using Microsoft.EntityFrameworkCore;
-using ChampionsLeagueTeamsApp.BusinessLogic;
 
 namespace ChampionsLeagueTeamsApp.Controllers
 {
     public class StadiumsController : Controller
     {
-        private readonly IStadiumService _stadiumService;
+        private readonly ApplicationDbContext _context;
 
-
-        public StadiumsController(IStadiumService stadiumService)
+        public StadiumsController(ApplicationDbContext context)
         {
-            _stadiumService = stadiumService;
+            _context = context;
         }
 
-
+        
         public async Task<IActionResult> Index(string? searchQuery = null, int pageNumber = 1, int pageSize = 5)
         {
+            
+            IQueryable<Stadium> stadiumsQuery = _context.Stadiums.Include(s => s.Team);
 
-            IEnumerable<Stadium> stadiums;
-
-
+            
             if (!string.IsNullOrEmpty(searchQuery))
             {
-                stadiums = await _stadiumService.SearchStadiumsAsync(searchQuery);
+                stadiumsQuery = stadiumsQuery.Where(s => s.Name.Contains(searchQuery) || s.Location.Contains(searchQuery));
                 ViewData["CurrentFilter"] = searchQuery;
             }
-            else
-            {
 
-                stadiums = await _stadiumService.GetStadiumsWithPaginationAsync(pageNumber, pageSize);
-            }
+            
+            var totalStadiumsCount = await stadiumsQuery.CountAsync();
 
+            
+            var stadiums = await stadiumsQuery
+                .Skip((pageNumber - 1) * pageSize)  
+                .Take(pageSize)                     
+                .ToListAsync();
 
-            var totalStadiumsCount = await _stadiumService.GetAllStadiumsAsync();
-            var totalPages = (int)Math.Ceiling((double)totalStadiumsCount.Count() / pageSize);
+            
+            var totalPages = (int)Math.Ceiling((double)totalStadiumsCount / pageSize);
 
-
+            
             ViewData["PageNumber"] = pageNumber;
             ViewData["TotalPages"] = totalPages;
 
-
             return View(stadiums);
+        }
+
+        
+        public async Task<IActionResult> Details(int id)
+        {
+            var stadium = await _context.Stadiums
+                .Include(s => s.Team)  
+                .FirstOrDefaultAsync(s => s.Id == id); 
+
+            if (stadium == null)
+            {
+                return NotFound();  
+            }
+
+            return View(stadium);  
         }
     }
 }
